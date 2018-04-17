@@ -46,7 +46,7 @@ const obHeader = () => {
                 </div>
                 <div className="col-md-2 col-xs-5 width-auto">
                     <div className="header-social-icon xs-display-none">
-                        <a href="https://www.facebook.com/carlo.anthony.7" title="Facebook" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/carlo-bilbao/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
                         <a href="https://instagram.com/carloantoniob/" title="Instagram" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
                         <a href="https://twitter.com/CarloAntonioB" title="Twitter" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
                         <a href="https://www.youtube.com/channel/UC8fnvYf5xW-8YVgJCRqSjsA" title="YouTube" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube"></i></a>
