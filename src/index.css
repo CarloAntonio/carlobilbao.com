@@ -3,3 +3,40 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.accent-color {
+  color: #c67c00;
+}
+
+.accent-bg,
+.accent-bg:hover {
+  background-color: #c67c00;
+}
+
+.accent-bg-hover:hover {
+  background-color: #c67c00;
+}
+
+.accent-hover:hover {
+  color: #c67c00;
+}
+
+.custom-pt {
+  padding-top: 72px;
+}
+
+.pb-no {
+  padding-bottom: 0;
+}
+
+.custom-p-tb {
+  padding-top: 0;
+  padding-bottom: 72px;
+}
+
+.c-strike {position: relative;}
+.c-strike:before {background: #c67c00;}
+.c-strike:before {content: ""; height: 1px; left: -10px; position: absolute; top: 53%; width: calc(100% + 20px);-webkit-transform: translateY(-53%); -moz-transform: translateY(-53%); -ms-transform: translateY(-53%); -o-transform: translateY(-53%); transform: translateY(-53%);}
+
+.btn.btn-accent {background: #c67c00; border-color: #c67c00; color: #ffffff}
+.btn.btn-accent:hover, .btn.btn-accent:focus {background: transparent; border-color: #c67c00; color: #c67c00}
