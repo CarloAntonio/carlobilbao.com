@@ -17,8 +17,8 @@ const contact = () => {
                                 <div class="bg-extra-dark-gray icon-round-medium"><i class="icon-chat icon-medium text-white"></i></div>
                             </div>
                             <div class="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">Lets Talk</div>
-                            <p class="center-col">Phone: 1-800-222-000<br/>Fax: 1-800-222-002</p>
-                            <a href="#" class="c-strike accent-hover text-uppercase accent-color text-small margin-15px-top xs-margin-10px-top display-inline-block">call us</a>
+                            <p class="center-col">Phone: 1-510-253-3755</p>
+                            <p class="c-strike accent-hover text-uppercase accent-color text-small margin-15px-top xs-margin-10px-top display-inline-block">call us</p>
                         </div>
                         {/* end contact info item */}
                         {/* start contact info item */}
@@ -26,9 +26,9 @@ const contact = () => {
                             <div class="display-inline-block margin-20px-bottom">
                                 <div class="bg-extra-dark-gray icon-round-medium"><i class="icon-envelope icon-medium text-white"></i></div>
                             </div>
-                            <div class="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">E-mail Us</div>
-                            <p class="center-col"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a><br/><a href="mailto:hr@yourdomain.com">hr@yourdomain.com</a></p>
-                            <a href="#" class="c-strike accent-hover text-uppercase accent-color text-small margin-15px-top xs-margin-10px-top display-inline-block">send e-mail</a>
+                            <div class="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">E-mail Me</div>
+                            <p class="center-col"><a href="mailto:cbilbao88@gmail.com">cbilbao88@gmail.com</a></p>
+                            <p class="c-strike accent-hover text-uppercase accent-color text-small margin-15px-top xs-margin-10px-top display-inline-block">send e-mail</p>
                         </div>
                         {/* end contact info item */}
                     </div>
