@@ -47,24 +47,492 @@ const home = () => {
         </section>
         {/* end about agency section */}
 
+        {/* start progress bar section */}
+        <section className="wow fadeIn">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-7 col-sm-12 col-xs-12 center-col text-center margin-100px-bottom xs-margin-40px-bottom">
+                        <div className="position-relative overflow-hidden width-100">
+                            <span className="text-small text-outside-line-full alt-font font-weight-600 text-uppercase">Skill Set</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    {/* technologies section */}
+                    <div className="col-md-6 col-sm-10 text-center margin-50px-bottom">
+                        {/* start progress bar section */}
+                        <div className="skillbar-bar-main skillbar-bar-style-custom">
+                            <p className="text-small alt-font font-weight-600 text-uppercase">Technologies</p>
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Javascript - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="85%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Java - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="50%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">C++ - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="25%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Python - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="95%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">HTML5 - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">CSS - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">XML - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar" data-percent="80%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Node - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                        </div>
+                        {/* end progress bar section*/}
+                    </div>
+
+                    {/* frameworks and libraries section */}
+                    <div className="col-md-6 col-sm-10 text-center margin-50px-bottom">
+                        {/* start progress bar section */}
+                        <div className="skillbar-bar-main skillbar-bar-style-custom">
+                            <p className="text-small alt-font font-weight-600 text-uppercase">Libraries &amp; Frameworks</p>
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="80%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">React - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Express - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Bootstrap - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="85%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">SASS - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="75%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">JQuery - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar" data-percent="20%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Pug - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar" data-percent="70%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Gson (Android Dev) - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar" data-percent="70%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Retrofit (Android Dev) - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                        </div>
+                        {/* end progress bar */}
+                    </div>
+
+                    {/* tools section */}
+                    <div className="col-md-6 col-sm-10 text-center margin-50px-bottom">
+                        {/* start progress bar */}
+                        <div className="skillbar-bar-main skillbar-bar-style-custom">
+                            <p className="text-small alt-font font-weight-600 text-uppercase">Tools</p>
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="70%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Grunt - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="75%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Gimp & Photoshop - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="50%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Android Studio - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Git/GitHub - 1 year Experience year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Chrome Developer Tools - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Atom/VSCode - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Npm - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar" data-percent="20%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">MongoDB - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                        </div>
+                        {/* end progress bar */}
+                    </div>
+
+                    {/* other section */}
+                    <div className="col-md-6 col-sm-10 text-center margin-50px-bottom">
+                        {/* start progress bar */}
+                        <div className="skillbar-bar-main skillbar-bar-style-custom">
+                            <p className="text-small alt-font font-weight-600 text-uppercase">Other</p>
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="80%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Firebase Functions - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="80%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Amazon Web Services - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="90%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Git/GitHub - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="98%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">JSON - 1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="85%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Source Tree - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+                            {/* start  progress bar item */}
+                            <div className="skillbar margin-45px-bottom" data-percent="80%">
+                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Slack - &#60;1 year Experience</span>
+                                <p className="skillbar-bar"></p>
+                                <span className="skill-bar-percent text-small"></span>
+                            </div>
+                            {/* end progress bar item */}
+
+                        </div>
+                        {/* end progress bar */}
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        {/* start progress bar section */}
+
+        {/* start portfolio section */}
+        <section className="wow fadeIn border-bottom border-color-extra-light-gray bg-light-gray">
+            <div className="container-fluid">
+                <div className="row text-center">
+                    <div className="col-md-12">
+                        <p className="alt-font text-medium-gray margin-5px-bottom text-uppercase text-small">Selected latest Works</p>
+                        <h5 className="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 sm-width-100 xs-width-100">New Projects</h5>
+                        <span className="separator-line-horrizontal-medium-light2 bg-deep-pink display-table margin-auto width-100px"></span>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="filter-content overflow-hidden margin-100px-top sm-margin-70px-top xs-margin-50px-top xs-margin-15px-lr">
+                        <ul className="portfolio-grid work-4col gutter-large hover-option6 lightbox-portfolio">
+                            <li className="grid-sizer"></li>
+                            {/* start portfolio item */}
+                            <li className="grid-item wow fadeInUp last-paragraph-no-margin">
+                                <figure>
+                                    <div className="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <div className="portfolio-icon">
+                                            <a href="single-project-page-01.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Lightbox gallery image title..." href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <figcaption className="bg-white">
+                                        <div className="portfolio-hover-main text-center">
+                                            <div className="portfolio-hover-box vertical-align-middle">
+                                                <div className="portfolio-hover-content position-relative">
+                                                    <a href="single-project-page-01.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Herbal Beauty Salon</span></a>
+                                                    <p className="text-medium-gray text-extra-small text-uppercase">Branding and Identity</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            {/* end portfolio item */}
+                            {/* start portfolio item */}
+                            <li className="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                                <figure>
+                                    <div className="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <div className="portfolio-icon">
+                                            <a href="single-project-page-02.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Lightbox gallery image title..." href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a
+                                            ></div>
+                                    </div>
+                                    <figcaption className="bg-white">
+                                        <div className="portfolio-hover-main text-center">
+                                            <div className="portfolio-hover-box vertical-align-middle">
+                                                <div className="portfolio-hover-content position-relative">
+                                                    <a href="single-project-page-02.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Tailoring Interior</span></a>
+                                                    <p className="text-medium-gray text-extra-small text-uppercase">Branding and Brochure</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            {/* end portfolio item */}
+                            {/* start portfolio item */}
+                            <li className="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                                <figure>
+                                    <div className="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <div className="portfolio-icon">
+                                            <a href="single-project-page-03.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Lightbox gallery image title..." href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <figcaption className="bg-white">
+                                        <div className="portfolio-hover-main text-center">
+                                            <div className="portfolio-hover-box vertical-align-middle">
+                                                <div className="portfolio-hover-content position-relative">
+                                                    <a href="single-project-page-03.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Designblast Inc</span></a>
+                                                    <p className="text-medium-gray text-extra-small text-uppercase">Web and Photography</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            {/* end portfolio item */}
+                            {/* start portfolio item */}
+                            <li className="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
+                                <figure>
+                                    <div className="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <div className="portfolio-icon">
+                                            <a href="single-project-page-04.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Lightbox gallery image title..." href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <figcaption className="bg-white">
+                                        <div className="portfolio-hover-main text-center">
+                                            <div className="portfolio-hover-box vertical-align-middle">
+                                                <div className="portfolio-hover-content position-relative">
+                                                    <a href="single-project-page-04.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">HardDot Stone</span></a>
+                                                    <p className="text-medium-gray text-extra-small text-uppercase">Branding and Identity</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            {/* end portfolio item */}
+                            {/* start portfolio item */}
+                            <li className="grid-item wow fadeInUp last-paragraph-no-margin">
+                                <figure>
+                                    <div className="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <div className="portfolio-icon">
+                                            <a href="single-project-page-05.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Lightbox gallery image title..." href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <figcaption className="bg-white">
+                                        <div className="portfolio-hover-main text-center">
+                                            <div className="portfolio-hover-box vertical-align-middle">
+                                                <div className="portfolio-hover-content position-relative">
+                                                    <a href="single-project-page-05.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Crop Identity</span></a>
+                                                    <p className="text-medium-gray text-extra-small text-uppercase">Branding and Brochure</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            {/* end portfolio item */}
+                            {/* start portfolio item */}
+                            <li className="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                                <figure>
+                                    <div className="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <div className="portfolio-icon">
+                                            <a href="single-project-page-06.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Lightbox gallery image title..." href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <figcaption className="bg-white">
+                                        <div className="portfolio-hover-main text-center">
+                                            <div className="portfolio-hover-box vertical-align-middle">
+                                                <div className="portfolio-hover-content position-relative">
+                                                    <a href="single-project-page-06.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Violator Series</span></a>
+                                                    <p className="text-medium-gray text-extra-small text-uppercase">Web and Photography</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            {/* end portfolio item */}
+                            {/* start portfolio item */}
+                            <li className="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                                <figure>
+                                    <div className="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <div className="portfolio-icon">
+                                            <a href="single-project-page-07.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Lightbox gallery image title..." href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <figcaption className="bg-white">
+                                        <div className="portfolio-hover-main text-center">
+                                            <div className="portfolio-hover-box vertical-align-middle">
+                                                <div className="portfolio-hover-content position-relative">
+                                                    <a href="single-project-page-07.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jeremy Dupont</span></a>
+                                                    <p className="text-medium-gray text-extra-small text-uppercase">Branding and Identity</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            {/* end portfolio item */}
+                            {/* start portfolio item */}
+                            <li className="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
+                                <figure>
+                                    <div className="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <div className="portfolio-icon">
+                                            <a href="single-project-page-08.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Lightbox gallery image title..." href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <figcaption className="bg-white">
+                                        <div className="portfolio-hover-main text-center">
+                                            <div className="portfolio-hover-box vertical-align-middle">
+                                                <div className="portfolio-hover-content position-relative">
+                                                    <a href="single-project-page-08.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Bill Gardner</span></a>
+                                                    <p className="text-medium-gray text-extra-small text-uppercase">Web and Photography</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            {/* end portfolio item */}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {/* end portfolio section */}
+
         {/* start contact section */}
-        <section class="wow fadeIn animated animated">
-            <div class="container">
-                <div class="row equalize sm-equalize-auto">
-                    <div class="col-md-5 col-sm-12 col-xs-12 text-center sm-margin-30px-bottom wow fadeInLeft">
-                        <div class="display-table width-100 height-100">
-                            <div class="display-table-cell vertical-align-middle width-100 height-100">
-                                <img src="http://placehold.it/900x650" alt="" class="border-radius-6 width-100"/>
+        <section className="wow fadeIn animated animated">
+            <div className="container">
+                <div className="row equalize sm-equalize-auto">
+                    <div className="col-md-5 col-sm-12 col-xs-12 text-center sm-margin-30px-bottom wow fadeInLeft">
+                        <div className="display-table width-100 height-100">
+                            <div className="display-table-cell vertical-align-middle width-100 height-100">
+                                <img src="http://placehold.it/900x650" alt="" className="border-radius-6 width-100"/>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="display-table width-100 height-100">
-                            <div class="display-table-cell vertical-align-middle padding-twelve-lr sm-text-center sm-no-padding width-100">
-                                <span class="alt-font margin-10px-bottom display-inline-block text-medium accent-color">Let&#39;s build something together</span>
-                                <h6 class="alt-font text-extra-dark-gray">If you are interested in a new project, collaboration, or a reason to get drinks don&#39;t hesitate to get in contact with me.</h6>
+                    <div className="col-md-7 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
+                        <div className="display-table width-100 height-100">
+                            <div className="display-table-cell vertical-align-middle padding-twelve-lr sm-text-center sm-no-padding width-100">
+                                <span className="alt-font margin-10px-bottom display-inline-block text-medium accent-color">Let&#39;s build something together</span>
+                                <h6 className="alt-font text-extra-dark-gray">If you are interested in a new project, collaboration, or a reason to get drinks don&#39;t hesitate to get in contact with me.</h6>
                                 <p>I&#39;m currently available for freelance work, so if you fancy a chat, click the button below!</p>
-                                <a href="/contact" class="btn btn-dark-gray btn-small text-extra-small btn-rounded margin-5px-top"><i class="fa fa-play-circle icon-very-small margin-5px-right no-margin-left" aria-hidden="true"></i>let&#39;s do it</a>
+                                <a href="/contact" className="btn btn-dark-gray btn-small text-extra-small btn-rounded margin-5px-top"><i className="fa fa-play-circle icon-very-small margin-5px-right no-margin-left" aria-hidden="true"></i>let&#39;s do it</a>
                             </div>
                         </div>
                     </div>
