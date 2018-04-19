@@ -45,3 +45,19 @@ body {
 .skillbar-bar-style-custom .skillbar-bar { height: 5px; width: 0px; display: inline-block; position: absolute; top: 0; margin: 0; overflow: visible; background: #c67c00; background: -moz-linear-gradient(left, #c67c00 0%, #d3d3d3 100%); background: -webkit-linear-gradient(left, #c67c00 0%,#d3d3d3 100%); background: linear-gradient(to right, #c67c00 0%,#d3d3d3 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c67c00', endColorstr='#d3d3d3',GradientType=1 ); }
 .skillbar-bar-style-custom .skill-bar-percent { position: absolute; top:13px; right: 0; }
 .skillbar-bar-style-custom .skill-bar-text {top:15px; position: absolute}
+
+/*Form Stylings*/
+.alert.alert-success {
+  display: none;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.alert.alert-danger {
+  display: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
