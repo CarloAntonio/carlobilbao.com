@@ -351,10 +351,10 @@ const home = () => {
                             <li className="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
                                 <figure>
                                     <div className="portfolio-img accent-bg position-relative text-center overflow-hidden">
-                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <img src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/magnoliaDotCom.jpg" alt=""/>
                                         <div className="portfolio-icon">
-                                            <a href="single-project-page-02.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
-                                            <a className="gallery-link" title="Project Magnolia Guest Home LLC" href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a
+                                            <a href="http://www.magnoliaghllc.com"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Project Magnolia Guest Home LLC" href="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/magnoliaDotCom.jpg"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a
                                             ></div>
                                     </div>
                                     <figcaption className="bg-white">
@@ -384,7 +384,7 @@ const home = () => {
                     <div className="col-md-5 col-sm-12 col-xs-12 text-center sm-margin-30px-bottom wow fadeInLeft">
                         <div className="display-table width-100 height-100">
                             <div className="display-table-cell vertical-align-middle width-100 height-100">
-                                <img src="http://placehold.it/900x650" alt="" className="border-radius-6 width-100"/>
+                                <img src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/workTogether.jpeg" alt="" className="border-radius-6 width-100"/>
                             </div>
                         </div>
                     </div>

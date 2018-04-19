@@ -96,44 +96,44 @@ const about = () => {
                 <div class="row equalize">
                     {/* start service item  */}
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp">
-                        <i class="icon-desktop icon-extra-medium accent-color margin-20px-bottom"></i>
+                        <i class="ti-video-camera icon-extra-medium accent-color margin-20px-bottom"></i>
                         <div class="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Videography</div>
                         <p class="width-80 xs-width-100 center-col">I love making videos, almost as much as I love developing applications. I gravitate towards videography over photography because it limits interpretation, in that, context is created by the very nature of time elapsing. You can either create a narrative or capture one, conversely it is far more difficult to do so in photographs. Often times, pictures require background knowlege of context, creator intention, etc. Videos much less so, a trait I love exploring when I&#39;m creating content.</p>
                     </div>
                     {/* end service item */}
                     {/* start service item */}
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                        <i class="icon-tools icon-extra-medium accent-color margin-20px-bottom"></i>
+                        <i class="ti-map-alt icon-extra-medium accent-color margin-20px-bottom"></i>
                         <div class="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Hiking/Camping</div>
-                        <p class="width-80 xs-width-100 center-col">I can think of few places I&#39;d rather be than being with my friends around the campfire telling stores miles away from civilian disconneted from the digital world. There&#39;s also nothing like hiking miles of trails to arrive at a destination only a those who have persisted the same path have been. Some people think it&#39;s contrary to be both passionate about technology and nature, but in my opinion, it&#39;s a necessary balance.</p>
+                        <p class="width-80 xs-width-100 center-col">I can think of only a few other places I&#39;d rather be than being with my friends around the campfire telling stores miles away from civilian disconneted from the digital world. There&#39;s also nothing like hiking miles of trails to arrive at a destination only a those who have persisted the same path have been. Some people think it&#39;s contrary to be both passionate about technology and nature, but in my opinion, it&#39;s a necessary balance.</p>
                     </div>
                     {/* end service item */}
                     {/* start service item */}
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
-                        <i class="icon-hotairballoon icon-extra-medium accent-color margin-20px-bottom"></i>
+                        <i class="ti-basketball icon-extra-medium accent-color margin-20px-bottom"></i>
                         <div class="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Basketball</div>
                         <p class="width-80 xs-width-100 center-col">Basketball is an old friend. I&#39;ve known it since I was 9 years old, and even though I&#39;m no Kobe Bryant and this isn&#39;t a <a href="https://www.youtube.com/watch?v=Hr3dX6__-hU" target="_blank" className="accent-hover">Dear Basketball</a> ripoff, I can and have always had basketball to help clear my head. Big decisions, breakups, fights, anxiety, impatience, grudges and just about anything else seem a little easier to deal with after running up and down the court and having a silent conversation with the hoop.</p>
                     </div>
                     {/* end service item */}
                     {/* start service item */}
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp">
-                        <i class="icon-target icon-extra-medium accent-color margin-20px-bottom"></i>
+                        <i class="ti-cup icon-extra-medium accent-color margin-20px-bottom"></i>
                         <div class="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Gym/Working Out</div>
-                        <p class="width-80 xs-width-100 center-col">"Going to the gym after studying and working in front of a computer, is like taking a shower after going to the gym." -Carlo B. I literally just thought of this right now. There&#39;s something so satisfying about tearing it in the brain department, then doing the same in the body department. Putting on wireless headphones and going in on the workouts is the most zen you can get on a work day.</p>
+                        <p class="width-80 xs-width-100 center-col">"Going to the gym after studying and working in front of a computer, is like taking a shower after going to the gym." -Carlo B. I literally just thought of this right now. There&#39;s something so satisfying about tearing it up in the brain department, then doing the same in the body department. Putting on wireless headphones and going in on the workouts is the most zen you can get on a work day.</p>
                     </div>
                     {/* end service item */}
                     {/* start service item */}
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                        <i class="icon-scissors icon-extra-medium accent-color margin-20px-bottom"></i>
+                        <i class="ti-music-alt icon-extra-medium accent-color margin-20px-bottom"></i>
                         <div class="text-extra-dark-gray margin-10px-bottom alt-font font-weight-600">Bachata/Salsa</div>
                         <p class="width-80 xs-width-100 center-col">I don&#39;t even know why I like doing this, but I blame my college roommates for this hobby. Now I listen to bachata and salsa music and I have no idea what they&#39;re saying but that beat and base are next level. I&#39;m not even good at it, but it&#39;s one of the funnest things to do on a night out.</p>
                     </div>
                     {/* end service item */}
                     {/* start service item */}
-                    <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="icon-laptop icon-extra-medium accent-color margin-20px-bottom"></i>
-                        <div class="text-extra-dark-gray margin-10px-bottom alt-font font-weight-600">Finding new places to be/eat</div>
-                        <p class="width-85 xs-width-100 center-col">I mean, who doesn&#39;t like eating new kinds of food and being in new places? This is a pretty cop-out answer. This item shouldn&#39;t even be on this list. But little know fact: I like even and symmetrical things.</p>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                        <i class="ti-rocket icon-extra-medium accent-color margin-20px-bottom"></i>
+                        <div class="text-extra-dark-gray margin-10px-bottom alt-font font-weight-600">Space</div>
+                        <p class="width-80 xs-width-100 center-col">I&#39;ve always loved space but felt like space was only for really smart people to think about, but since Elon Musk&#39;s audacious attempts at reaching Mars play out in my lifetime, I can&#39;t help but think that anyone can dream about reaching the stars. I&#39;d love to play a part in making that dream come true with the skills I have and can&#39;t wait till the ticket to space cost as much as traveling to the other side of the world.</p>
                     </div>
                     {/* end service item */}
                 </div>
@@ -161,7 +161,7 @@ const about = () => {
                             {/* end youtube video */}
                         </div>
                         <div class="bg-white padding-40px-all xs-padding-30px-all last-paragraph-no-margin bg-light-gray">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                            <p>My first hiking trip using my DJI Osmo. Look at all that 3-axis gimble smooth gooeyness. Also, a couple of awesome dogs that love to hike.</p>
                         </div>
                     </div>
                     {/* end column */}
@@ -174,7 +174,7 @@ const about = () => {
                             {/* end youtube video */}
                         </div>
                         <div class="bg-white padding-40px-all last-paragraph-no-margin bg-light-gray">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                            <p>My first attempt at making a video that tried to embody the lyrics of a song. Also, a trip to Neveda for a lantern festival with a few friends of mine.</p>
                         </div>
                     </div>
                     {/* end column */}
@@ -183,7 +183,7 @@ const about = () => {
 
                 <div class="row">
 
-                    {/* start column */}
+                    {/* start toddtrex column */}
                     <div class="col-md-6 col-sm-12 sm-margin-15px-bottom ">
                         <div class="text-center fit-videos sm-margin-30px-bottom">
                             {/* start youtube video */}
@@ -191,7 +191,7 @@ const about = () => {
                             {/* end youtube video */}
                         </div>
                         <div class="bg-white padding-40px-all last-paragraph-no-margin bg-light-gray">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                            <p>My friend and I enjoy traveling and taking pictures, but weren&#39;t huge fans of taking pictures of ourselves. The solution, for some reason, was to wear a dinosaur suit instead. We&#39;re not sure what other steps led to that conclusion as well. But it did lead to this awesome video. If you enjoyed that goofyness, there&#39;s more <a href="https://www.instagram.com/toddthetrex/" target="_blank" className="accent-hover">here</a>. </p>
                         </div>
                     </div>
                     {/* end column */}
@@ -204,7 +204,7 @@ const about = () => {
                             {/* end youtube video */}
                         </div>
                         <div class="bg-white padding-40px-all xs-padding-30px-all last-paragraph-no-margin bg-light-gray">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                            <p>My friends and I head over to Mcclures Beach at Point Reyes for a picnic on a (mostly) sunny day. Give the video time, the sun will come out, believe me, I heard it all when we first arrived at the spot and it was cloudy and cold. I found this place a long time ago while hiking at a nearby area. I knew I&#39;d eventually take my friends here and have a BBQ.</p>
                         </div>
                     </div>
                     {/* end column */}
