@@ -221,7 +221,7 @@ const about = () => {
                     <div class="col-md-8 col-sm-12 col-xs-12 text-center center-col">
                         <span class="alt-font text-small text-uppercase text-extra-dark-gray">I would love to work with you</span>
                         <h5 class="alt-font font-weight-700 letter-spacing-minus-1 accent-color">Brainstorm over some coffee?</h5>
-                        <a href="#" class="btn btn-large btn-transparent-dark-gray margin-10px-top inner-link">Let&#39;s get started</a>
+                        <a href="/contact" class="btn btn-large btn-transparent-dark-gray margin-10px-top inner-link">Let&#39;s get started</a>
                     </div>
                 </div>
             </div>

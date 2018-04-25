@@ -10,8 +10,13 @@ import Home from "./containers/home/home";
 import About from "./containers/about/about";
 import Contact from "./containers/contact/contact";
 import Work from "./containers/work/work";
-import Journal from "./containers/blog/journal/journal";
+
+//Notebook & Notebook Entries
 import Notebook from "./containers/blog/notebook/notebook";
+
+//Journal & Journal Entries
+import Journal from "./containers/blog/journal/journal";
+import Je1 from "./containers/blog/journal/je/je1";
 
 export default class App extends Component {
   render() {
@@ -29,6 +34,7 @@ export default class App extends Component {
           <Route path="/work" exact component={ Work } />
           <Route path="/blog/notebook" exact component= { Notebook } />
           <Route path="/blog/journal" exact component= { Journal } />
+            <Route path="/blog/journal/je/je1" exact component= { Je1 } />
         </Switch>
 
         <Footer />
