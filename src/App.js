@@ -13,10 +13,17 @@ import Work from "./containers/work/work";
 
 //Notebook & Notebook Entries
 import Notebook from "./containers/blog/notebook/notebook";
+import Ne1 from "./containers/blog/notebook/ne/ne1";
+import Ne2 from "./containers/blog/notebook/ne/ne2";
+import Ne3 from "./containers/blog/notebook/ne/ne3";
+import Ne4 from "./containers/blog/notebook/ne/ne4";
 
 //Journal & Journal Entries
 import Journal from "./containers/blog/journal/journal";
 import Je1 from "./containers/blog/journal/je/je1";
+import Je2 from "./containers/blog/journal/je/je2";
+import Je3 from "./containers/blog/journal/je/je3";
+import Je4 from "./containers/blog/journal/je/je4";
 
 export default class App extends Component {
   render() {
@@ -35,6 +42,9 @@ export default class App extends Component {
           <Route path="/blog/notebook" exact component= { Notebook } />
           <Route path="/blog/journal" exact component= { Journal } />
             <Route path="/blog/journal/je/je1" exact component= { Je1 } />
+            <Route path="/blog/journal/je/je2" exact component= { Je2 } />
+            <Route path="/blog/journal/je/je3" exact component= { Je3 } />
+            <Route path="/blog/journal/je/je4" exact component= { Je4 } />
         </Switch>
 
         <Footer />

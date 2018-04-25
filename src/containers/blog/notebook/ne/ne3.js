@@ -1,6 +1,6 @@
 import React from "react";
 
-const je1 = () => {
+const ne3 = () => {
   return (
     <div>
         {/* start page title section */}
@@ -48,4 +48,4 @@ const je1 = () => {
   );
 }
 
-export default je1;
+export default ne3;
