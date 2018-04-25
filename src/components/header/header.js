@@ -37,6 +37,17 @@ const obHeader = () => {
                             {/* end menu item */}
 
                             {/* start menu item */}
+                            <li className="dropdown simple-dropdown"><a title="Blog">Blog</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                {/* start sub menu */}
+                                <ul className="dropdown-menu" role="menu">
+                                    <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/blog/notebook">Notebook</a></li>
+                                    <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/blog/journal">Journal</a></li>
+                                </ul>
+                                {/* end sub menu */}
+                            </li>
+                            {/* end menu item */}
+
+                            {/* start menu item */}
                             <li className="dropdown">
                                 <a href="/contact">Contact</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                             </li>
