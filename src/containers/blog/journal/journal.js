@@ -13,7 +13,7 @@ const journal = () => {
                         <div className="display-table-cell vertical-align-middle text-center">
                             {/* start page title */}
                             <h1 className="text-white alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom">Journal</h1>
-                            <span className="text-white opacity6 alt-font">Lorem Ipsum is simply dummy text printing</span>
+                            <span className="text-white opacity6 alt-font">A free flowing, open subject blog where I talk about things that are interesting and thought provoking to me.</span>
                             {/* end page title */}
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const journal = () => {
                                 </a>
                             </div>
                             <div className="post-details">
-                                <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom xs-margin-5px-bottom">25 April 2018</span>
+                                <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom xs-margin-5px-bottom">07 April 2018</span>
                                 <a href="/blog/journal/je/je1" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">Hello Journal.</a>
                                 <div className="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
                                 <p className="width-90 xs-width-100">Exploring the decision to start journaling (again) and my personal pitfalls of keeping a journal.</p>
@@ -51,8 +51,8 @@ const journal = () => {
                                 </a>
                             </div>
                             <div className="post-details">
-                                <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom  xs-margin-5px-bottom">26 April 2018</span>
-                                <a href="/blog/journal/je/je2" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">Hello World.(Repost)</a>
+                                <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom  xs-margin-5px-bottom">16 April 2018</span>
+                                <a href="/blog/journal/je/je2" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">Hello World. (Repost)</a>
                                 <div className="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
                                 <p className="width-90 xs-width-100">Exploring the origins of the very first program most people will create (Repost from Medium - Oct. 24, 2017)</p>
                             </div>
@@ -68,10 +68,10 @@ const journal = () => {
                                 </a>
                             </div>
                             <div className="post-details">
-                                <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom  xs-margin-5px-bottom">27 April 2018</span>
-                                <a href="/blog/journal/je/je3" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">Design is inherently optimistic. That is its power.</a>
+                                <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom  xs-margin-5px-bottom">25 April 2018</span>
+                                <a href="/blog/journal/je/je3" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">My First Tech Meet-Up. (Repost)</a>
                                 <div className="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
-                                <p className="width-90 xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text...</p>
+                                <p className="width-90 xs-width-100">Recounting the first time I went to a tech meet-up, reasons to go, and what I learned (Repost from Medium - Nov. 01, 2017)</p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ const journal = () => {
                                 </a>
                             </div>
                             <div className="post-details">
-                                <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom  xs-margin-5px-bottom">02 June 2018</span>
+                                <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom  xs-margin-5px-bottom">29 April 2018</span>
                                 <a href="/blog/journal/je/je4" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">I wish someone would ask me to design a cathedral.</a>
                                 <div className="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
                                 <p className="width-90 xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text...</p>

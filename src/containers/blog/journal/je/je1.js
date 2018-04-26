@@ -11,7 +11,7 @@ const je1 = () => {
                     <div className="col-md-12 col-sm-12 col-xs-12 display-table page-title-large">
                         <div className="display-table-cell vertical-align-middle text-center padding-30px-tb">
                             {/* start sub title */}
-                            <span className="text-white opacity6 alt-font margin-10px-bottom display-block text-uppercase text-small">25 April 2018</span>
+                            <span className="text-white opacity6 alt-font margin-10px-bottom display-block text-uppercase text-small">07 April 2018</span>
                             {/* end sub title */}
                             {/* start page title */}
                             <h1 className="text-white alt-font font-weight-600 margin-10px-bottom">Hello Journal.</h1>
