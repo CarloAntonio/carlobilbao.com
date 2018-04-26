@@ -52,9 +52,9 @@ const journal = () => {
                             </div>
                             <div className="post-details">
                                 <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom  xs-margin-5px-bottom">26 April 2018</span>
-                                <a href="/blog/journal/je/je2" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">Good design accelerates the adoption of new ideas.</a>
+                                <a href="/blog/journal/je/je2" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">Hello World.(Repost)</a>
                                 <div className="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
-                                <p className="width-90 xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text...</p>
+                                <p className="width-90 xs-width-100">Exploring the origins of the very first program most people will create (Repost from Medium - Oct. 24, 2017)</p>
                             </div>
                         </div>
                     </div>
