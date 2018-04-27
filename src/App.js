@@ -40,6 +40,10 @@ export default class App extends Component {
           <Route path="/contact" exact component={ Contact } />
           <Route path="/work" exact component={ Work } />
           <Route path="/blog/notebook" exact component= { Notebook } />
+            <Route path="/blog/notebook/ne/ne1" exact component= { Ne1 } />
+            <Route path="/blog/notebook/ne/ne1" exact component= { Ne2 } />
+            <Route path="/blog/notebook/ne/ne1" exact component= { Ne3 } />
+            <Route path="/blog/notebook/ne/ne1" exact component= { Ne4 } />
           <Route path="/blog/journal" exact component= { Journal } />
             <Route path="/blog/journal/je/je1" exact component= { Je1 } />
             <Route path="/blog/journal/je/je2" exact component= { Je2 } />

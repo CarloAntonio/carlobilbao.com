@@ -4,6 +4,14 @@ body {
   font-family: sans-serif;
 }
 
+.cover {
+  background-size: cover;
+}
+
+.text-standout {
+  text-shadow: 1px 1px 0px #000;
+}
+
 .accent-color {
   color: #c67c00;
 }

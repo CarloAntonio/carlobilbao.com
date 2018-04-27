@@ -1,10 +1,11 @@
 import React from "react";
+import hero from "../../../../images/je2-hero.jpeg";
 
 const je2 = () => {
   return (
     <div>
         {/* start page title section */}
-        <section className="wow fadeIn cover-background background-position-top" style ={ { backgroundImage: "url('http://placehold.it/1920x700')" } }>
+        <section className="wow fadeIn cover-background background-position-top" style ={ { backgroundImage: `url(${ hero })` } }>
             <div className="opacity-medium bg-extra-dark-gray"></div>
             <div className="container">
                 <div className="row">

@@ -91,7 +91,7 @@ class contact extends React.Component {
                       <div className="col-md-6 wow fadeIn bg-black">
                           <div className="padding-eleven-all text-center xs-no-padding-lr">
                               <div className="text-medium-gray alt-font text-small text-uppercase margin-5px-bottom xs-margin-three-bottom">Fill out the form and well be in touch soon!</div>
-                              <h5 className="margin-55px-bottom text-white alt-font font-weight-700 text-uppercase xs-margin-ten-bottom">Ready to request a quote?</h5>
+                              <h5 className="margin-55px-bottom text-white alt-font font-weight-700 text-uppercase xs-margin-ten-bottom">Ready to get started?</h5>
                               <Formsy id="project-contact-form" onValidSubmit={this.submit} onValid={this.enableButton} onInvalid={this.disableButton}>
                                   <div className="row">
                                       <div className="col-md-12">

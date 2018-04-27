@@ -1,24 +1,26 @@
 import React from "react";
+import hero from '../../images/home-hero.jpg';
+import djv from "../../images/darryljv.jpg";
 
 const home = () => {
   return (
     <div>
 
         {/* start hero section */}
-        <section className="wow fadeIn no-padding one-fourth-screen position-relative parallax xs-background-image-center" data-stellar-background-ratio="0.5" style ={ { backgroundImage: "url('http://placehold.it/1920x1080')" } }>
+        <section className="wow fadeIn no-padding one-fourth-screen position-relative parallax xs-background-image-center" data-stellar-background-ratio="0.5" style ={ { backgroundImage: `url(${ hero })` } }>
             <div className="container">
                 <div className="row height-100">
                     <div className="slider-typography">
                         <div className="slider-text-middle-main">
                             <div className="slider-text-middle">
                                 <div className="col-lg-4 col-md-8 col-sm-10 col-xs-12 center-col text-center">
-                                    <span className="text-extra-small alt-font letter-spacing-2 text-uppercase margin-20px-bottom display-inline-block text-medium-gray">Carlo Antonio Soriano Bilbao</span>
-                                    <h2 className="font-weight-600 alt-font margin-40px-bottom sm-margin-20px-bottom text-extra-dark-gray letter-spacing-minus-1">Software Developer, Science Geek, Life-Long Learner</h2>
+                                    <span className="text-extra-small alt-font letter-spacing-2 text-uppercase margin-20px-bottom display-inline-block text-white">Carlo Antonio Soriano Bilbao</span>
+                                    <h2 className="font-weight-600 alt-font margin-40px-bottom sm-margin-20px-bottom text-white letter-spacing-minus-1 text-standout">Software Developer, Science Geek, Life-Long Learner</h2>
                                     <div className="social-icon-style-8">
                                         <ul className="small-icon">
-                                            <li><a className="linkedin text-extra-dark-gray margin-5px-lr" href="https://www.linkedin.com/in/carlo-bilbao/" target="_blank"><i className="fa fa-linkedin accent-hover" aria-hidden="true"></i></a></li>
-                                            <li><a className="dribbble text-extra-dark-gray margin-5px-lr" href="https://instagram.com/" target="_blank"><i className="fa fa-instagram accent-hover" aria-hidden="true"></i></a></li>
-                                            <li><a className="medium text-extra-dark-gray margin-5px-lr" href="https://medium.com/@cbilbao88" target="_blank"><i className="fa fa-medium accent-hover" aria-hidden="true"></i></a></li>
+                                            <li><a className="linkedin text-white margin-5px-lr" href="https://www.linkedin.com/in/carlo-bilbao/" target="_blank"><i className="fa fa-linkedin accent-hover" aria-hidden="true"></i></a></li>
+                                            <li><a className="dribbble text-white margin-5px-lr" href="https://instagram.com/" target="_blank"><i className="fa fa-instagram accent-hover" aria-hidden="true"></i></a></li>
+                                            <li><a className="medium text-white margin-5px-lr" href="https://medium.com/@cbilbao88" target="_blank"><i className="fa fa-medium accent-hover" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -328,17 +330,17 @@ const home = () => {
                             <li className="grid-item wow fadeInUp last-paragraph-no-margin">
                                 <figure>
                                     <div className="portfolio-img accent-bg position-relative text-center overflow-hidden">
-                                        <img src="http://placehold.it/800x650" alt=""/>
+                                        <img src={ djv } alt=""/>
                                         <div className="portfolio-icon">
                                             <a href="single-project-page-01.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
-                                            <a className="gallery-link" title="Project Darryl Baello Photography" href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
+                                            <a className="gallery-link" title="Project Darryl Jon Visuals" href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                     <figcaption className="bg-white">
                                         <div className="portfolio-hover-main text-center">
                                             <div className="portfolio-hover-box vertical-align-middle">
                                                 <div className="portfolio-hover-content position-relative">
-                                                    <a href="single-project-page-01.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Darryl Baello Photography</span></a>
+                                                    <a href="single-project-page-01.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Darryl Jon Visuals</span></a>
                                                     <p className="text-medium-gray text-extra-small text-uppercase">Website</p>
                                                 </div>
                                             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import snip1 from "../../../../images/noteImg/ne-snip1.png";
 
 const ne1 = () => {
   return (
@@ -14,7 +15,7 @@ const ne1 = () => {
                             <span className="text-white opacity6 alt-font margin-10px-bottom display-block text-uppercase text-small">25 April 2018</span>
                             {/* end sub title */}
                             {/* start page title */}
-                            <h1 className="text-white alt-font font-weight-600 margin-10px-bottom">Hello Journal.</h1>
+                            <h1 className="text-white alt-font font-weight-600 margin-10px-bottom">Hello Notebook + First index.html File.</h1>
                             {/* end page title */}
                         </div>
                     </div>
@@ -29,7 +30,7 @@ const ne1 = () => {
                 <div className="row">
                     <div className="col-md-10 col-sm-12 col-xs-12 center-col xs-text-center">
                         <h5 className="font-weight-600 text-extra-dark-gray alt-font accent-color">"Journaling about a problem and solution is a way for me to develop and wrestle with my ideas..."</h5>
-                        <img className="alignright" src="http://placehold.it/400x267" alt=""/>
+                        <a href={ snip1 } target="_blank"><img className="alignright" src={ snip1 } alt="" style= {{width: "50%"}} /></a>
                         <p>This blog is named Journal and will be the complete opposite of Notebook. (Notebook is a blog completely devoted to programming hints, techniques, solutions, pitfalls, etc.) Journal will be a free flowing, open subject blog where I talk about things that are interesting and thought provoking to me. Subjects will probably be comprised mostly of thoughts that have been simmering in my head, projects I want to undertake, ideas I have, problems I see in the world, and values I hold. It’s also a place where I can work on my written voice, writing skills, and personal brand. It’s a place that I hope the reader, whomever they may be, can have a clearer understanding of who I am. And lastly, it’s also a time capsule of who I am on the date I wrote the article, serving as a reminded to my future self of who I was, who I hope to be, or who I hope to become. I’ve journaled before and have stopped after two or three entries, but like every good habit I’ve picked up in the past, the solution is: start again, remember the reasons for why it’s worth doing, and figuring out why last time was a failure.</p>
                         <p>Why journal&#63; There are a lot of <a className="accent-color accent-hover" href="https://lifehacker.com/why-you-should-keep-a-journal-and-how-to-start-yours-1547057185" target="_blank" rel="noopener noreferrer">reasons to journal</a>, but two main reasons I want to keep a written record is because I want to remember the ideas I&#39;ve had and to think deeply about them. I want to remember my ideas because they usually pertain to a problem that I think is important and worth solving. I won’t go into detail about what problems interest me the most in this journal entry, but I will write about it in a future journal post. Regardless, the first step to solving a problem is coming up with a solution, or rather, a hypothesis about the solution. Ok, that’s sort a lie, technically, the first step is understanding the problem, but I think these two steps are not linear, but rather cyclical, ebbing and flowing until a refined hypothesis is reached. Understanding the problem is to think deeply about the problem and how a current hypothesis can possibly solve it. Journaling about a problem and solution is a way for me to develop and wrestle with my ideas and ultimately help me decide whether to launch my solution into the real world. Although those are the reasons I journal, it doesn’t mean that writing comes easy. I’ve had a love/hate relationship with writing, that’s probably why I’ve had an inconsistent past when writing a journal.</p>
                     </div>
