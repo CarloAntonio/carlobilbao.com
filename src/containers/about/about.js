@@ -1,9 +1,9 @@
 import React from "react";
 import hero from "../../images/about-hero.png";
 import profile from "../../images/profile.jpg";
-import slider1 from "../../images/slider4cropped.jpg";
-import slider2 from "../../images/slider5cropped.jpg";
-import slider3 from "../../images/slider6grayscale.jpg";
+import slider1 from "../../images/slider1.jpg";
+import slider2 from "../../images/slider2.jpg";
+import slider3 from "../../images/slider3.jpg";
 
 const about = () => {
   return (
@@ -23,7 +23,7 @@ const about = () => {
                         <div class="swiper-wrapper">
 
                             {/* start slider item */}
-                            <div class="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider2 })` } }>
+                            <div class="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider1 })` } }>
                                 <div class="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div class="margin-100px-bottom text-center position-relative">
                                         <span class="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">01</span>
@@ -33,7 +33,7 @@ const about = () => {
                             {/* end slider item */}
 
                             {/* start slider item */}
-                            <div class="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider1 })` } }>
+                            <div class="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider2 })` } }>
                                 <div class="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div class="margin-100px-bottom text-center position-relative">
                                         <span class="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">02</span>
@@ -71,7 +71,7 @@ const about = () => {
 
                         <figure class="wp-caption alignright"><img alt="" src={ profile }/><figcaption class="wp-caption-text">You&#39;re looking my portfolio page, that&#39;s awesome :)</figcaption></figure>
                         <span class="text-medium alt-font font-weight-600 margin-20px-bottom display-block accent-color">"When figuring what type of work you should do, treat it much like the rest of life, find things that make you lose track of time."</span>
-                        <p>I am both a software developer and biotech professional based in the San Francisco Bay Area. I&#39;m passionate about using current and emerging technologies to help solve old problems. Specifically, problems that plague those that are less fortunate, marginalized, and/or in situations where they are not able to fix their predicament. It’s this opportunity and the avenues that new technology creates, that motivates me to learn and develop new skills and technologies.</p>
+                        <p>I am both a software developer and biotech professional based in the San Francisco Bay Area. I&#39;m passionate about using current and emerging technologies to help solve old problems. Specifically, problems that plague those that are less fortunate, marginalized, or in situations where they are not able to fix their predicament. It’s these problems and the avenues that new technology creates, that motivates me to learn and develop new skills and technologies.</p>
                         <p>Currently, I work as a freelance web developer helping businesses and individuals expand their market by create an online presence. Additionally, I partner up with other developers to tackle larger web applications and projects. The rest of my time is spent taking classes to earn my master&#39;s degree in Computer Science.</p>
                         <p>In the past, I earned my bachelor&#39;s degree in biochemistry and molecular biology at the University of California, Davis. (Go Aggies!) Professionally, I worked at a biotech company manufacturing DNA sequences for research and applied use for nearly 4 years. My love for science did not give way to technology, rather, I hope to combine them and, hopefully, have them compliment each other as I strive to help solve interesting problems that will hopefully help make people&#39;s lives better. If you&#39;d like a more detailed view of my work history feel free to check out my LinkedIn: <a href="https://www.linkedin.com/in/carlo-bilbao/" className="accent-hover" target="_blank">Here</a>.</p>
 
@@ -118,7 +118,7 @@ const about = () => {
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp">
                         <i class="ti-cup icon-extra-medium accent-color margin-20px-bottom"></i>
                         <div class="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Gym/Working Out</div>
-                        <p class="width-80 xs-width-100 center-col">"Going to the gym after studying and working in front of a computer, is like taking a shower after going to the gym." -Carlo B. I literally just thought of this right now. There&#39;s something so satisfying about tearing it up in the brain department, then doing the same in the body department. Putting on wireless headphones and going in on the workouts is the most zen you can get on a work day.</p>
+                        <p class="width-80 xs-width-100 center-col">"Going to the gym after studying and working in front of a computer, is like taking a shower after going to the gym. It feels ridiculously refreshing." -Carlo B. I literally just thought of this right now. There&#39;s something so satisfying about tearing it up in the brain department, then doing the same in the body department. Putting on wireless headphones and going in on the workouts is the most zen you can get on a work day.</p>
                     </div>
                     {/* end service item */}
                     {/* start service item */}

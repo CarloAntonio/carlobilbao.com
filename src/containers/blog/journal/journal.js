@@ -1,9 +1,9 @@
 import React from "react";
-import hero from '../../../images/journal-hero.jpeg';
-import je1_tb from "../../../images/je1-tb.jpg";
-import je2_tb from "../../../images/je2-tb.jpeg";
-import je3_tb from "../../../images/je3-tb.jpeg";
-import je4_tb from "../../../images/je4-tb.jpeg";
+import hero from "../../../images/journal-hero.jpeg";
+import je1_tb from "../../../images/jImage/je1-tb.jpg";
+import je2_tb from "../../../images/jImage/je2-tb.jpeg";
+import je3_tb from "../../../images/jImage/je3-tb.jpeg";
+import je4_tb from "../../../images/jImage/je4-tb.jpeg";
 
 const journal = () => {
   return (
