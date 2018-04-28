@@ -1,4 +1,7 @@
 import React from "react";
+import hero from "../../../../images/nImage/notebook-hero.jpeg";
+import snip1 from "../../../../images/nImage/ne2/ne2-snip1.png";
+import snip2 from "../../../../images/nImage/ne2/ne2-snip2.png";
 
 const ne2 = () => {
   return (
