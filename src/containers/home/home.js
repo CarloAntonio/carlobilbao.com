@@ -330,29 +330,6 @@ const home = () => {
                             <li className="grid-item wow fadeInUp last-paragraph-no-margin">
                                 <figure>
                                     <div className="portfolio-img accent-bg position-relative text-center overflow-hidden">
-                                        <img src={ djv } alt=""/>
-                                        <div className="portfolio-icon">
-                                            <a href="single-project-page-01.html"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
-                                            <a className="gallery-link" title="Project Darryl Jon Visuals" href="http://placehold.it/800x650"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                    <figcaption className="bg-white">
-                                        <div className="portfolio-hover-main text-center">
-                                            <div className="portfolio-hover-box vertical-align-middle">
-                                                <div className="portfolio-hover-content position-relative">
-                                                    <a href="single-project-page-01.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Darryl Jon Visuals</span></a>
-                                                    <p className="text-medium-gray text-extra-small text-uppercase">Website</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            {/* end portfolio item */}
-                            {/* start portfolio item */}
-                            <li className="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                                <figure>
-                                    <div className="portfolio-img accent-bg position-relative text-center overflow-hidden">
                                         <img src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/magnoliaDotCom.jpg" alt=""/>
                                         <div className="portfolio-icon">
                                             <a href="http://www.magnoliaghllc.com"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
