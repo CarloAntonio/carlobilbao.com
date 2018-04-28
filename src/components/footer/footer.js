@@ -27,7 +27,6 @@ const obFooter = () => {
                                   <li><a className="instagram text-white" href="https://instagram.com/carloantoniob/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram no-margin-right accent-hover"></i></a></li>
                                   <li><a className="twitter text-white" href="https://twitter.com/CarloAntonioB" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter accent-hover"></i></a></li>
                                   <li><a className="google text-white" href="https://www.youtube.com/channel/UC8fnvYf5xW-8YVgJCRqSjsA" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube accent-hover"></i></a></li>
-                                  <li><a className="google text-white" href="https://medium.com/@cbilbao88" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium accent-hover"></i></a></li>
                                   <li><a className="facebook text-white" href="https://www.facebook.com/carlo.anthony.7" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook accent-hover"></i></a></li>
                               </ul>
                           </div>

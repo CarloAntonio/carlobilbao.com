@@ -21,7 +21,6 @@ const work = () => {
                                                 <li><a className="text-white accent-bg-hover" href="https://www.linkedin.com/in/carlo-bilbao/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin "></i><span></span></a></li>
                                                 <li><a className="text-white accent-bg-hover" href="https://instagram.com/carloantoniob/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i><span></span></a></li>
                                                 <li><a className="text-white accent-bg-hover" href="https://www.youtube.com/channel/UC8fnvYf5xW-8YVgJCRqSjsA" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube"></i><span></span></a></li>
-                                                <li><a className="text-white accent-bg-hover" href="https://medium.com/@cbilbao88" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium"></i><span></span></a></li>
                                                 <li><a className="text-white accent-bg-hover" href="https://twitter.com/CarloAntonioB" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i><span></span></a></li>
                                                 <li><a className="text-white accent-bg-hover" href="https://www.facebook.com/carlo.anthony.7" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i><span></span></a></li>
                                             </ul>

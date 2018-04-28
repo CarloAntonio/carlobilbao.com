@@ -60,7 +60,6 @@ const obHeader = () => {
                         <a href="https://instagram.com/carloantoniob/" title="Instagram" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
                         <a href="https://twitter.com/CarloAntonioB" title="Twitter" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
                         <a href="https://www.youtube.com/channel/UC8fnvYf5xW-8YVgJCRqSjsA" title="YouTube" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube"></i></a>
-                        <a href="https://medium.com/@cbilbao88" title="Medium" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium"></i></a>
                     </div>
                 </div>
               </div>
