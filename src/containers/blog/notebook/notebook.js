@@ -48,9 +48,9 @@ const notebook = () => {
                         <div class="blog-post blog-post-style7 border-all border-color-light-gray padding-fourteen-all md-padding-ten-all xs-padding-30px-all bg-white inner-match-height">
                             <div class="post-details">
                                 <span class="text-extra-small text-uppercase display-block margin-four-bottom sm-margin-two-bottom">7 April 2018</span>
-                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block"><a href="blog-post-layout-01.html">The design process, at its best, integrates the aspirations of art, science, and culture.</a></span>
+                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block">Index.html Minimum Tags</span>
                                 <div class="author padding-10px-top position-relative">
-                                    <span class="text-uppercase text-extra-small">by <a href="javascript:void(0);">Herman Miller</a></span>
+                                    <span class="text-uppercase text-extra-small">Explaining the minimum required html tags required to create a website</span>
                                 </div>
                             </div>
                         </div>
@@ -63,9 +63,9 @@ const notebook = () => {
                         <div class="blog-post blog-post-style7 border-all border-color-light-gray padding-fourteen-all md-padding-ten-all xs-padding-30px-all bg-white inner-match-height">
                             <div class="post-details">
                                 <span class="text-extra-small text-uppercase display-block margin-four-bottom sm-margin-two-bottom">18 April 2018</span>
-                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block"><a href="blog-post-layout-03.html">Design is an opportunity to continue telling the story, not just to sum everything up.</a></span>
+                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block">Index.html Common Head Tags</span>
                                 <div class="author padding-10px-top position-relative">
-                                    <span class="text-uppercase text-extra-small">by <a href="javascript:void(0);">Hugh Macleod</a></span>
+                                    <span class="text-uppercase text-extra-small">Explaining the most common head tags</span>
                                 </div>
                             </div>
                         </div>
@@ -78,9 +78,9 @@ const notebook = () => {
                         <div class="blog-post blog-post-style7 border-all border-color-light-gray padding-fourteen-all md-padding-ten-all xs-padding-30px-all bg-white inner-match-height">
                             <div class="post-details">
                                 <span class="text-extra-small text-uppercase display-block margin-four-bottom sm-margin-two-bottom">28 April 2018</span>
-                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block"><a href="blog-post-layout-04.html">Let us sacrifice our today so that our children can have a better tomorrow.</a></span>
+                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block">Index.html Common Body Tags</span>
                                 <div class="author padding-10px-top position-relative">
-                                    <span class="text-uppercase text-extra-small">by <a href="javascript:void(0);">Jennifer Freeman</a></span>
+                                    <span class="text-uppercase text-extra-small">Explaining the most common body tags</span>
                                 </div>
                             </div>
                         </div>

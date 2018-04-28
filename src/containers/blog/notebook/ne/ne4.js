@@ -1,20 +1,21 @@
 import React from "react";
+import hero from "../../../../images/nImage/notebook-hero.jpeg";
 
 const ne4 = () => {
   return (
     <div>
         {/* start page title section */}
-        <section className="wow fadeIn cover-background background-position-top" style ={ { backgroundImage: "url('http://placehold.it/1920x700')" } }>
+        <section className="wow fadeIn cover-background background-position-top" style ={ { backgroundImage: `url(${ hero })` } }>
             <div className="opacity-medium bg-extra-dark-gray"></div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-sm-12 col-xs-12 display-table page-title-large">
                         <div className="display-table-cell vertical-align-middle text-center padding-30px-tb">
                             {/* start sub title */}
-                            <span className="text-white opacity6 alt-font margin-10px-bottom display-block text-uppercase text-small">25 April 2018</span>
+                            <span className="text-white opacity6 alt-font margin-10px-bottom display-block text-uppercase text-small">28 April 2018</span>
                             {/* end sub title */}
                             {/* start page title */}
-                            <h1 className="text-white alt-font font-weight-600 margin-10px-bottom">Hello Journal.</h1>
+                            <h1 className="text-white alt-font font-weight-600 margin-10px-bottom">Index.html Common Body Tags</h1>
                             {/* end page title */}
                         </div>
                     </div>
