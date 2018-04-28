@@ -63,9 +63,9 @@ const notebook = () => {
                         <div class="blog-post blog-post-style7 border-all border-color-light-gray padding-fourteen-all md-padding-ten-all xs-padding-30px-all bg-white inner-match-height">
                             <div class="post-details">
                                 <span class="text-extra-small text-uppercase display-block margin-four-bottom sm-margin-two-bottom">18 April 2018</span>
-                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block">Index.html Common Head Tags</span>
+                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block">Head Tags Series: "charset=utf-8"</span>
                                 <div class="author padding-10px-top position-relative">
-                                    <span class="text-uppercase text-extra-small">Explaining the most common head tags</span>
+                                    <span class="text-uppercase text-extra-small">Explaining the reasoning behind including the "charset=utf-8" meta tag</span>
                                 </div>
                             </div>
                         </div>
@@ -78,9 +78,9 @@ const notebook = () => {
                         <div class="blog-post blog-post-style7 border-all border-color-light-gray padding-fourteen-all md-padding-ten-all xs-padding-30px-all bg-white inner-match-height">
                             <div class="post-details">
                                 <span class="text-extra-small text-uppercase display-block margin-four-bottom sm-margin-two-bottom">28 April 2018</span>
-                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block">Index.html Common Body Tags</span>
+                                <span class="text-large alt-font margin-50px-bottom sm-margin-30px-bottom display-block">Head Tags Series: name="viewport"</span>
                                 <div class="author padding-10px-top position-relative">
-                                    <span class="text-uppercase text-extra-small">Explaining the most common body tags</span>
+                                    <span class="text-uppercase text-extra-small">Explaining the reasoning behind including the "name=viewport" meta tag</span>
                                 </div>
                             </div>
                         </div>
