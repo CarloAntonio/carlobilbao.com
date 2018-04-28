@@ -4,6 +4,10 @@ import profile from "../../images/profile.jpg";
 import slider1 from "../../images/slider1.jpg";
 import slider2 from "../../images/slider2.jpg";
 import slider3 from "../../images/slider3.jpg";
+import slider4 from "../../images/slider4.jpg";
+import slider5 from "../../images/slider5.jpg";
+import slider6 from "../../images/slider6.jpg";
+import slider7 from "../../images/slider7.jpg";
 
 const about = () => {
   return (
@@ -47,6 +51,46 @@ const about = () => {
                                 <div class="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div class="margin-100px-bottom text-center position-relative">
                                         <span class="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">03</span>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* end slider item */}
+
+                            {/* start slider item */}
+                            <div class="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider4 })` } }>
+                                <div class="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
+                                    <div class="margin-100px-bottom text-center position-relative">
+                                        <span class="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">04</span>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* end slider item */}
+
+                            {/* start slider item */}
+                            <div class="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider5 })` } }>
+                                <div class="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
+                                    <div class="margin-100px-bottom text-center position-relative">
+                                        <span class="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">05</span>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* end slider item */}
+
+                            {/* start slider item */}
+                            <div class="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider6 })` } }>
+                                <div class="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
+                                    <div class="margin-100px-bottom text-center position-relative">
+                                        <span class="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">06</span>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* end slider item */}
+
+                            {/* start slider item */}
+                            <div class="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider7 })` } }>
+                                <div class="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
+                                    <div class="margin-100px-bottom text-center position-relative">
+                                        <span class="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">07</span>
                                     </div>
                                 </div>
                             </div>

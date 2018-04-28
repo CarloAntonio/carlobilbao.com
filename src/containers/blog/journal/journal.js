@@ -1,9 +1,9 @@
 import React from "react";
 import hero from "../../../images/journal-hero.jpeg";
-import je1_tb from "../../../images/jImage/je1-tb.jpg";
-import je2_tb from "../../../images/jImage/je2-tb.jpeg";
-import je3_tb from "../../../images/jImage/je3-tb.jpeg";
-import je4_tb from "../../../images/jImage/je4-tb.jpeg";
+import je1_tb from "../../../images/jImage/je1/je1-tb.jpg";
+import je2_tb from "../../../images/jImage/je2/je2-tb.jpeg";
+import je3_tb from "../../../images/jImage/je3/je3-tb.jpeg";
+import je4_tb from "../../../images/jImage/je4/je4-tb.jpeg";
 
 const journal = () => {
   return (
@@ -91,9 +91,9 @@ const journal = () => {
                             </div>
                             <div className="post-details">
                                 <span className="post-author text-extra-small text-medium-gray text-uppercase display-block margin-10px-bottom  xs-margin-5px-bottom">29 April 2018</span>
-                                <a href="/blog/journal/je/je4" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">Interesting Problems.</a>
+                                <a href="/blog/journal/je/je4" className="post-title text-medium text-extra-dark-gray width-90 display-block sm-width-100 accent-hover">Court Therapy.</a>
                                 <div className="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
-                                <p className="width-90 xs-width-100">Describing the type of problems that are interesting to me and the biggest problem I want to solve.</p>
+                                <p className="width-90 xs-width-100">How a story that happened decades ago, told during my birthday dinner, helped me appreciate my access to the game of basketball.</p>
                             </div>
                         </div>
                     </div>
