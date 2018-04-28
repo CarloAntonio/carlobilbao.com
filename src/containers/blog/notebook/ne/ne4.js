@@ -1,12 +1,10 @@
 import React from "react";
-import hero from "../../../../images/nImage/notebook-hero.jpeg";
-import snip1 from "../../../../images/nImage/ne4/ne4-snip1.png";
 
 const ne4 = () => {
   return (
     <div>
         {/* start page title section */}
-        <section className="wow fadeIn cover-background background-position-top" style ={ { backgroundImage: `url(${ hero })` } }>
+        <section className="wow fadeIn cover-background background-position-top" style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/nImage/notebook-hero.jpeg)" } }>
             <div className="opacity-medium bg-extra-dark-gray"></div>
             <div className="container">
                 <div className="row">
@@ -31,7 +29,7 @@ const ne4 = () => {
                 <div className="row">
                     <div className="col-md-10 col-sm-12 col-xs-12 center-col xs-text-center">
                         <h5 className="font-weight-600 text-extra-dark-gray alt-font accent-color">"This tag helps the developer adjust the screen size for any possible screen size..."</h5>
-                        <figure class="wp-caption alignright"><a href={ snip1 } target="_blank"><img className="alignright" src={ snip1 } alt=""/></a><figcaption class="wp-caption-text">Figure 1</figcaption></figure>
+                        <figure class="wp-caption alignright"><a href="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/nImage/ne4/ne4-snip1.png" target="_blank"><img className="alignright" src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/nImage/ne4/ne4-snip1.png" alt=""/></a><figcaption class="wp-caption-text">Figure 1</figcaption></figure>
                         <p>In this post, we cover the next set of tags in our head tags series: <b>name=viewport</b>. I recommend adding it right after the <b>charset=”UTF-8”</b> meta tag. A great explainer can be found <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" className="accent-color accent-hover" target="_blank">here</a>. It’s actually not that dense, so I suggest reading it. But a quick summary from <a href="https://teamtreehouse.com/community/what-is-meta-name-viewport-content-widthdevicewidth-initialscale10" className="accent-color accent-hover" target="_blank">here</a> does a great job of summarizing it as well so I’ll post it below.</p>
                         <p>Snippet Start</p>
                         <p>The viewport meta tag tells the browser that the width of the screen should be considered the "Full Width" of the page. Meaning no matter the width of the device you are on, whether on desktop or mobile. the website will follow the width of the device the user is on.</p>

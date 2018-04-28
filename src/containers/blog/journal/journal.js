@@ -1,16 +1,11 @@
 import React from "react";
-import hero from "../../../images/journal-hero.jpeg";
-import je1_tb from "../../../images/jImage/je1/je1-tb.jpg";
-import je2_tb from "../../../images/jImage/je2/je2-tb.jpeg";
-import je3_tb from "../../../images/jImage/je3/je3-tb.jpeg";
-import je4_tb from "../../../images/jImage/je4/je4-tb.jpeg";
 
 const journal = () => {
   return (
     <div>
 
         {/* start page title section */}
-        <section className="wow fadeIn parallax" data-stellar-background-ratio="0.5" style ={ { backgroundImage: `url(${ hero })` } }>
+        <section className="wow fadeIn parallax" data-stellar-background-ratio="0.5" style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/journal-hero.jpeg)" } }>
             <div className="opacity-medium bg-extra-dark-gray"></div>
             <div className="container">
                 <div className="row">
@@ -35,7 +30,7 @@ const journal = () => {
                         <div className="blog-post blog-post-style1 xs-text-center">
                             <div className="blog-post-images overflow-hidden margin-25px-bottom sm-margin-20px-bottom">
                                 <a href="/blog/journal/je/je1">
-                                    <img src={ je1_tb } alt=""/>
+                                    <img src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/jImage/je1/je1-tb.jpg" alt=""/>
                                 </a>
                             </div>
                             <div className="post-details">
@@ -52,7 +47,7 @@ const journal = () => {
                         <div className="blog-post blog-post-style1 xs-text-center">
                             <div className="blog-post-images overflow-hidden margin-25px-bottom sm-margin-20px-bottom">
                                 <a href="/blog/journal/je/je2">
-                                    <img src={ je2_tb } alt=""/>
+                                    <img src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/jImage/je2/je2-tb.jpeg" alt=""/>
                                 </a>
                             </div>
                             <div className="post-details">
@@ -69,7 +64,7 @@ const journal = () => {
                         <div className="blog-post blog-post-style1 xs-text-center">
                             <div className="blog-post-images overflow-hidden margin-25px-bottom sm-margin-20px-bottom">
                                 <a href="/blog/journal/je/je3">
-                                    <img src={ je3_tb } alt=""/>
+                                    <img src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/jImage/je3/je3-tb.jpeg" alt=""/>
                                 </a>
                             </div>
                             <div className="post-details">
@@ -86,7 +81,7 @@ const journal = () => {
                         <div className="blog-post blog-post-style1 xs-text-center">
                             <div className="blog-post-images overflow-hidden margin-25px-bottom sm-margin-20px-bottom">
                                 <a href="/blog/journal/je/je4">
-                                    <img src={ je4_tb } alt=""/>
+                                    <img src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/jImage/je4/je4-tb.jpeg" alt=""/>
                                 </a>
                             </div>
                             <div className="post-details">

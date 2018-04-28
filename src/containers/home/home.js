@@ -1,13 +1,11 @@
 import React from "react";
-import hero from '../../images/home-hero.jpg';
-import djv from "../../images/darryljv.jpg";
 
 const home = () => {
   return (
     <div>
 
         {/* start hero section */}
-        <section className="wow fadeIn no-padding one-fourth-screen position-relative parallax xs-background-image-center" data-stellar-background-ratio="0.5" style ={ { backgroundImage: `url(${ hero })` } }>
+        <section className="wow fadeIn no-padding one-fourth-screen position-relative parallax xs-background-image-center" data-stellar-background-ratio="0.5" style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/home-hero.jpg)" } }>
             <div className="container">
                 <div className="row height-100">
                     <div className="slider-typography">

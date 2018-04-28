@@ -1,12 +1,11 @@
 import React from "react";
-import filler from "../../images/work-filler.jpeg";
 
 const work = () => {
   return (
     <div>
 
         {/* start countdown section */}
-        <section className="no-padding full-screen cover-background" style ={ { backgroundImage: `url(${ filler })` } }>
+        <section className="no-padding full-screen cover-background" style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/work-filler.jpeg)" } }>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
