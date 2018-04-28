@@ -108,7 +108,7 @@ const about = () => {
                         <span class="text-medium alt-font font-weight-600 margin-20px-bottom display-block accent-color">"When figuring what type of work you should do, treat it much like the rest of life, find things that make you lose track of time."</span>
                         <p>I am both a software developer and biotech professional based in the San Francisco Bay Area. I&#39;m passionate about using current and emerging technologies to help solve old problems. Specifically, problems that plague those that are less fortunate, marginalized, or in situations where they are not able to fix their predicament. It’s these problems and the avenues that new technology creates, that motivates me to learn and develop new skills and technologies.</p>
                         <p>Currently, I work as a freelance web developer helping businesses and individuals expand their market by create an online presence. Additionally, I partner up with other developers to tackle larger web applications and projects. The rest of my time is spent taking classes to earn my master&#39;s degree in Computer Science.</p>
-                        <p>In the past, I earned my bachelor&#39;s degree in biochemistry and molecular biology at the University of California, Davis. (Go Aggies!) Professionally, I worked at a biotech company manufacturing DNA sequences for research and applied use for nearly 4 years. My love for science did not give way to technology, rather, I hope to combine them and, hopefully, have them compliment each other as I strive to help solve interesting problems that will hopefully help make people&#39;s lives better. If you&#39;d like a more detailed view of my work history feel free to check out my LinkedIn: <a href="https://www.linkedin.com/in/carlo-bilbao/" className="accent-hover" target="_blank">Here</a>.</p>
+                        <p>In the past, I earned my bachelor&#39;s degree in biochemistry and molecular biology at the University of California, Davis. (Go Aggies!) Professionally, I worked at a biotech company manufacturing DNA sequences for research and applied use for nearly 4 years. My love for science did not give way to technology, rather, I hope to combine them and, hopefully, have them compliment each other as I strive to help solve interesting problems that will hopefully help make people&#39;s lives better. If you&#39;d like a more detailed view of my work history feel free to check out my LinkedIn: <a href="https://www.linkedin.com/in/carlo-bilbao/" className="accent-hover" target="_blank" rel="noopener noreferrer">Here</a>.</p>
 
 
                     </div>
@@ -146,7 +146,7 @@ const about = () => {
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
                         <i class="ti-basketball icon-extra-medium accent-color margin-20px-bottom"></i>
                         <div class="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Basketball</div>
-                        <p class="width-80 xs-width-100 center-col">Basketball is an old friend. I&#39;ve known it since I was 9 years old, and even though I&#39;m no Kobe Bryant and this isn&#39;t a <a href="https://www.youtube.com/watch?v=Hr3dX6__-hU" target="_blank" className="accent-hover">Dear Basketball</a> ripoff, I can and have always had basketball to help clear my head. Big decisions, breakups, fights, anxiety, impatience, grudges and just about anything else seem a little easier to deal with after running up and down the court and having a silent conversation with the hoop.</p>
+                        <p class="width-80 xs-width-100 center-col">Basketball is an old friend. I&#39;ve known it since I was 9 years old, and even though I&#39;m no Kobe Bryant and this isn&#39;t a <a href="https://www.youtube.com/watch?v=Hr3dX6__-hU" target="_blank" className="accent-hover" rel="noopener noreferrer">Dear Basketball</a> ripoff, I can and have always had basketball to help clear my head. Big decisions, breakups, fights, anxiety, impatience, grudges and just about anything else seem a little easier to deal with after running up and down the court and having a silent conversation with the hoop.</p>
                     </div>
                     {/* end service item */}
                     {/* start service item */}
@@ -191,7 +191,7 @@ const about = () => {
                     <div class="col-md-6 col-sm-12 sm-margin-15px-bottom ">
                         <div class="text-center fit-videos sm-margin-30px-bottom">
                             {/* start youtube video */}
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jXOKEFBRAEs" frameborder="0" allowFullScreen></iframe>
+                            <iframe title="Hiking with DJI Osmo" width="560" height="315" src="https://www.youtube.com/embed/jXOKEFBRAEs" frameborder="0" allowFullScreen></iframe>
                             {/* end youtube video */}
                         </div>
                         <div class="bg-white padding-40px-all xs-padding-30px-all last-paragraph-no-margin bg-light-gray">
@@ -204,7 +204,7 @@ const about = () => {
                     <div class="col-md-6 col-sm-12 sm-margin-15px-bottom ">
                         <div class="text-center fit-videos sm-margin-30px-bottom">
                             {/* start youtube video */}
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6gZz12nXJpM" frameborder="0" allowFullScreen></iframe>
+                            <iframe title="Video of the lantern festival" width="560" height="315" src="https://www.youtube.com/embed/6gZz12nXJpM" frameborder="0" allowFullScreen></iframe>
                             {/* end youtube video */}
                         </div>
                         <div class="bg-white padding-40px-all last-paragraph-no-margin bg-light-gray">
@@ -221,11 +221,11 @@ const about = () => {
                     <div class="col-md-6 col-sm-12 sm-margin-15px-bottom ">
                         <div class="text-center fit-videos sm-margin-30px-bottom">
                             {/* start youtube video */}
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dnA_7n4dHx4" frameborder="0" allowFullScreen></iframe>
+                            <iframe title="Todd the trex video" width="560" height="315" src="https://www.youtube.com/embed/dnA_7n4dHx4" frameborder="0" allowFullScreen></iframe>
                             {/* end youtube video */}
                         </div>
                         <div class="bg-white padding-40px-all last-paragraph-no-margin bg-light-gray">
-                            <p>My friend and I enjoy traveling and taking pictures, but weren&#39;t huge fans of taking pictures of ourselves. The solution, for some reason, was to wear a dinosaur suit instead. We&#39;re not sure what other steps led to that conclusion as well. But it did lead to this awesome video. If you enjoyed that goofyness, there&#39;s more <a href="https://www.instagram.com/toddthetrex/" target="_blank" className="accent-hover">here</a>. </p>
+                            <p>My friend and I enjoy traveling and taking pictures, but weren&#39;t huge fans of taking pictures of ourselves. The solution, for some reason, was to wear a dinosaur suit instead. We&#39;re not sure what other steps led to that conclusion as well. But it did lead to this awesome video. If you enjoyed that goofyness, there&#39;s more <a href="https://www.instagram.com/toddthetrex/" target="_blank" className="accent-hover" rel="noopener noreferrer">here</a>. </p>
                         </div>
                     </div>
                     {/* end column */}
@@ -234,7 +234,7 @@ const about = () => {
                     <div class="col-md-6 col-sm-12 sm-margin-15px-bottom ">
                         <div class="text-center fit-videos sm-margin-30px-bottom">
                             {/* start youtube video */}
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Wh-huDNXTws" frameborder="0" allowFullScreen></iframe>
+                            <iframe title="Picnic at McClures Beach" width="560" height="315" src="https://www.youtube.com/embed/Wh-huDNXTws" frameborder="0" allowFullScreen></iframe>
                             {/* end youtube video */}
                         </div>
                         <div class="bg-white padding-40px-all xs-padding-30px-all last-paragraph-no-margin bg-light-gray">

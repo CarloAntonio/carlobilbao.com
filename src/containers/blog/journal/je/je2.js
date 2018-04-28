@@ -41,8 +41,8 @@ const je2 = () => {
                         <p className="display-inline-block"></p>
                     </div>
                     <div className="col-md-10 center-col xs-text-center">
-                        <p>Song Recommendation: <a href="https://open.spotify.com/track/1THUV2tiTLxNNbJwC8m4pE?si=OKhFotRZTzOmiuhZUTfNdg" className="accent-color accent-hover" target="_blank">| Bone + Tissue - Gallant |</a></p>
-                        <p>Podcast Recommendation: <a href="https://www.stitcher.com/podcast/wnycs-radiolab/e/51614028" className="accent-color accent-hover" target="_blank">| Driverless Dilemma - Radio Lab |</a> Super relevant in the coming autonous driving era.</p>
+                        <p>Song Recommendation: <a href="https://open.spotify.com/track/1THUV2tiTLxNNbJwC8m4pE?si=OKhFotRZTzOmiuhZUTfNdg" className="accent-color accent-hover" target="_blank" rel="noopener noreferrer">| Bone + Tissue - Gallant |</a></p>
+                        <p>Podcast Recommendation: <a href="https://www.stitcher.com/podcast/wnycs-radiolab/e/51614028" className="accent-color accent-hover" target="_blank" rel="noopener noreferrer">| Driverless Dilemma - Radio Lab |</a> Super relevant in the coming autonous driving era.</p>
                         <p className="display-inline-block"></p>
                     </div>
                 </div>

@@ -43,8 +43,8 @@ const je4 = () => {
                         <p>Life happens, that’s probably why they call it the beautiful struggle. But you gotta get back up more or less intact when it knocks you down. There’s more than one type of therapy out there and I hope everyone has at least one. But when those times come, you know you can always find me at the local court putting up shots.</p>
                     </div>
                     <div className="col-md-10 center-col xs-text-center">
-                        <p>Song Recommendation: <a href="https://open.spotify.com/track/6pNX8XgYqVHYSoVNF81NKR?si=r3gaKUqXSMaCC66GgxFohw" className="accent-color accent-hover" target="_blank">| Do It Well - DVSN |</a></p>
-                        <p>Podcast Recommendation: <a href="https://www.stitcher.com/podcast/prx/99-invisible/e/53871414" className="accent-color accent-hover" target="_blank">| Airships and the Future that Never was - 99% Invisible |</a></p>
+                        <p>Song Recommendation: <a href="https://open.spotify.com/track/6pNX8XgYqVHYSoVNF81NKR?si=r3gaKUqXSMaCC66GgxFohw" className="accent-color accent-hover" target="_blank" rel="noopener noreferrer">| Do It Well - DVSN |</a></p>
+                        <p>Podcast Recommendation: <a href="https://www.stitcher.com/podcast/prx/99-invisible/e/53871414" className="accent-color accent-hover" target="_blank" rel="noopener noreferrer">| Airships and the Future that Never was - 99% Invisible |</a></p>
                         <p className="display-inline-block"></p>
                     </div>
                 </div>

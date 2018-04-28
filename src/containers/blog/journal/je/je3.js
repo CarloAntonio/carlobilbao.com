@@ -49,8 +49,8 @@ const je3 = () => {
                         <p className="display-inline-block"></p>
                     </div>
                     <div className="col-md-10 center-col xs-text-center">
-                        <p>Song Recommendation: <a href="https://open.spotify.com/track/20TYNq9o5sdBAbkCWE9ih7?si=aMmXKqr4RKC6mYyh5UJrMA" className="accent-color accent-hover" target="_blank">| Electric - Alina Baraz x Khalid |</a></p>
-                        <p>Podcast Recommendation: <a href="https://www.stitcher.com/podcast/wnycs-radiolab/e/48073088" className="accent-color accent-hover" target="_blank">| Alpha Gal - Radio Lab |</a></p>
+                        <p>Song Recommendation: <a href="https://open.spotify.com/track/20TYNq9o5sdBAbkCWE9ih7?si=aMmXKqr4RKC6mYyh5UJrMA" className="accent-color accent-hover" target="_blank" rel="noopener noreferrer">| Electric - Alina Baraz x Khalid |</a></p>
+                        <p>Podcast Recommendation: <a href="https://www.stitcher.com/podcast/wnycs-radiolab/e/48073088" className="accent-color accent-hover" target="_blank" rel="noopener noreferrer">| Alpha Gal - Radio Lab |</a></p>
                         <p className="display-inline-block"></p>
                     </div>
                 </div>

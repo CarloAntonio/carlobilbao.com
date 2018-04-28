@@ -2,7 +2,6 @@ import React from "react";
 import Formsy from 'formsy-react';
 import MyInput from '../../components/MyInput';
 import TextArea from '../../components/TextArea';
-import BudgetInput from '../../components/BudgetInput';
 
 class contact extends React.Component {
 

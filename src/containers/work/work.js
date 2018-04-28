@@ -18,12 +18,12 @@ const work = () => {
                                         <div data-enddate="2017/12/01 12:30:00" className="countdown text-center text-white counter-box-5"></div>
                                         <div className="col-md-12 text-center social-icon-style-10 margin-six-top xs-margin-30px-top xs-no-padding">
                                             <ul className="large-icon no-margin-bottom">
-                                                <li><a className="text-white accent-bg-hover" href="https://www.linkedin.com/in/carlo-bilbao/" target="_blank"><i className="fa fa-linkedin "></i><span></span></a></li>
-                                                <li><a className="text-white accent-bg-hover" href="https://instagram.com/carloantoniob/" target="_blank"><i className="fa fa-instagram"></i><span></span></a></li>
-                                                <li><a className="text-white accent-bg-hover" href="https://www.youtube.com/channel/UC8fnvYf5xW-8YVgJCRqSjsA" target="_blank"><i className="fa fa-youtube"></i><span></span></a></li>
-                                                <li><a className="text-white accent-bg-hover" href="https://medium.com/@cbilbao88" target="_blank"><i className="fa fa-medium"></i><span></span></a></li>
-                                                <li><a className="text-white accent-bg-hover" href="https://twitter.com/CarloAntonioB" target="_blank"><i className="fa fa-twitter"></i><span></span></a></li>
-                                                <li><a className="text-white accent-bg-hover" href="https://www.facebook.com/carlo.anthony.7" target="_blank"><i className="fa fa-facebook"></i><span></span></a></li>
+                                                <li><a className="text-white accent-bg-hover" href="https://www.linkedin.com/in/carlo-bilbao/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin "></i><span></span></a></li>
+                                                <li><a className="text-white accent-bg-hover" href="https://instagram.com/carloantoniob/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i><span></span></a></li>
+                                                <li><a className="text-white accent-bg-hover" href="https://www.youtube.com/channel/UC8fnvYf5xW-8YVgJCRqSjsA" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube"></i><span></span></a></li>
+                                                <li><a className="text-white accent-bg-hover" href="https://medium.com/@cbilbao88" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium"></i><span></span></a></li>
+                                                <li><a className="text-white accent-bg-hover" href="https://twitter.com/CarloAntonioB" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i><span></span></a></li>
+                                                <li><a className="text-white accent-bg-hover" href="https://www.facebook.com/carlo.anthony.7" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i><span></span></a></li>
                                             </ul>
                                         </div>
                                     </div>

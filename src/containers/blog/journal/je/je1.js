@@ -40,8 +40,8 @@ const je1 = () => {
                         <p className="display-inline-block"></p>
                     </div>
                     <div className="col-md-10 center-col xs-text-center">
-                        <p>Song Recommendation: <a href="https://open.spotify.com/track/7Cu2COdH93MnuireuKNiS3?si=Je-fFHq8RZizG4aPcVcVuw" className="accent-color accent-hover" target="_blank">| Streetcar - Daniel Caesar |</a> Daniel Caesar is becoming one of my new favorite artist, this song specifically is on repeat.</p>
-                        <p>Podcast Recommendation: <a href="https://www.youtube.com/watch?v=pnv5iKB2hl4" className="accent-color accent-hover" target="_blank">| Flags - 99% Invisible |</a> Technially not a podcast since the link is to a youtube video, but a great example of a podcast producer who can make you care about a subject you woudn&#39;t think you would care about.</p>
+                        <p>Song Recommendation: <a href="https://open.spotify.com/track/7Cu2COdH93MnuireuKNiS3?si=Je-fFHq8RZizG4aPcVcVuw" className="accent-color accent-hover" target="_blank" rel="noopener noreferrer">| Streetcar - Daniel Caesar |</a> Daniel Caesar is becoming one of my new favorite artist, this song specifically is on repeat.</p>
+                        <p>Podcast Recommendation: <a href="https://www.youtube.com/watch?v=pnv5iKB2hl4" className="accent-color accent-hover" target="_blank" rel="noopener noreferrer">| Flags - 99% Invisible |</a> Technially not a podcast since the link is to a youtube video, but a great example of a podcast producer who can make you care about a subject you woudn&#39;t think you would care about.</p>
                         <p className="display-inline-block"></p>
                     </div>
                 </div>
