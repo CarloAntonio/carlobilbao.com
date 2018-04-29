@@ -338,7 +338,7 @@ const home = () => {
                                         <div className="portfolio-hover-main text-center">
                                             <div className="portfolio-hover-box vertical-align-middle">
                                                 <div className="portfolio-hover-content position-relative">
-                                                    <a href="single-project-page-02.html"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Magnolia Guest Home LLC</span></a>
+                                                    <a href="http://www.magnoliaghllc.com"><span className="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Magnolia Guest Home LLC</span></a>
                                                     <p className="text-medium-gray text-extra-small text-uppercase">Website | Photography</p>
                                                 </div>
                                             </div>
