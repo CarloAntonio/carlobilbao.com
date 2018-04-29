@@ -60,10 +60,10 @@ class contact extends React.Component {
 
           {/* start contact info section */}
           <section class="wow fadeIn">
-              <div class="container">
+              <div class="container no-margin">
                   <div class="row">
 
-                      <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin bg-white">
                           <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase">Let&#39;s talk about it</h5>
                           {/* start contact info item */}
                           <div class="col-md-6 col-sm-6 col-xs-12 text-center sm-margin-eight-bottom xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
@@ -87,7 +87,7 @@ class contact extends React.Component {
                           {/* end contact info item */}
                       </div>
 
-                      <div className="col-md-6 wow fadeIn bg-black">
+                      <div className="col-md-6 col-sm-12 col-xs-12 xs-margin-30px-bottom wow fadeIn bg-black">
                           <div className="padding-eleven-all text-center xs-no-padding-lr">
                               <div className="text-medium-gray alt-font text-small text-uppercase margin-5px-bottom xs-margin-three-bottom">Fill out the form and well be in touch soon!</div>
                               <h5 className="margin-55px-bottom text-white alt-font font-weight-700 text-uppercase xs-margin-ten-bottom">Ready to get started?</h5>
