@@ -12,7 +12,6 @@ const about = () => {
                         <h4 className="text-white text-standout display-block margin-5px-bottom alt-font">Hello,</h4>
                         <h6 className="text-white text-standout font-weight-300 margin-20px-bottom alt-font">I&#39;m Carlo Bilbao</h6>
                         <p className="text-large text-white text-standout dispaly-block pull-left font-weight-300 width-90 margin-35px-bottom">I design and implement thoughtful websites for companies, businesses, and various events. I love being outdoors, creating videos, and being a gym rat.</p>
-                        <img src="images/signature.png" className="width-60 signature" alt=""/>
                     </div>
                     <div className="swiper-full-screen swiper-container col-md-6 no-padding-lr white-move bg-extra-dark-gray text-center xs-padding-20px-tb wow fadeIn">
                         <div className="swiper-wrapper">

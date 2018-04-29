@@ -18,37 +18,38 @@ const obHeader = () => {
                     <div className="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
                         <ul id="accordion" className="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                             {/* start menu item */}
-                            <li className="dropdown">
-                                <a href="/">Home</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                            <li>
+                                <a href="/">Home</a>
                             </li>
                             {/* end menu item */}
 
                             {/* start menu item */}
-                            <li className="dropdown">
-                                <a href="/work">Work</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                            <li>
+                                <a href="/work">Work</a>
                             </li>
                             {/* end menu item */}
 
                             {/* start menu item */}
-                            <li className="dropdown">
-                                <a href="/about">About</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                            <li>
+                                <a href="/about">About</a>
                             </li>
                             {/* end menu item */}
 
                             {/* start menu item */}
-                            <li className="dropdown simple-dropdown"><a title="Blog">Blog</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                {/* start sub menu */}
-                                <ul className="dropdown-menu" role="menu">
-                                    <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/blog/notebook">Notebook</a></li>
-                                    <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/blog/journal">Journal</a></li>
-                                </ul>
-                                {/* end sub menu */}
+                            <li>
+                                <a href="/blog/notebook">Notebook</a>
                             </li>
                             {/* end menu item */}
 
                             {/* start menu item */}
-                            <li className="dropdown">
-                                <a href="/contact">Contact</a><i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                            <li>
+                                <a href="/blog/journal">Journal</a>
+                            </li>
+                            {/* end menu item */}
+
+                            {/* start menu item */}
+                            <li>
+                                <a href="/contact">Contact</a>
                             </li>
                             {/* end menu item */}
                         </ul>
