@@ -1,10 +1,13 @@
 import React from "react";
 
+import notebookHero from '../../../../assets/img/notebook-hero.jpg';
+import ne2s1 from '../../../../assets/img/nImage/ne2/ne2-snip1.png';
+
 const ne2 = () => {
   return (
     <div>
         {/* start page title section */}
-        <section className="wow fadeIn cover-background background-position-top" style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/nImage/notebook-hero.jpeg)" } }>
+        <section className="wow fadeIn cover-background background-position-top" style ={ { backgroundImage: `url(${ notebookHero })` } }>
             <div className="opacity-medium bg-extra-dark-gray"></div>
             <div className="container">
                 <div className="row">
@@ -29,7 +32,7 @@ const ne2 = () => {
                 <div className="row">
                     <div className="col-md-10 col-sm-12 col-xs-12 center-col xs-text-center">
                         <h5 className="font-weight-600 text-extra-dark-gray alt-font accent-color">"This first post looks at the parts of the html document that are require and expands from there."</h5>
-                        <figure className="wp-caption alignright"><a href="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/nImage/ne2/ne2-snip1.png" target="_blank" rel="noopener noreferrer"><img className="alignright" src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/nImage/ne2/ne2-snip1.png" alt=""/></a><figcaption className="wp-caption-text">Figure 1</figcaption></figure>
+                        <figure className="wp-caption alignright"><a href={ ne2s1 } target="_blank" rel="noopener noreferrer"><img className="alignright" src={ ne2s1 } alt=""/></a><figcaption className="wp-caption-text">Figure 1</figcaption></figure>
                         <p>When creating a website, there are three main components. They are HTML (hypertext markup language), CSS (cascading style sheets), and JS (javascript). HTML contains all of the information that viewers see on a webpage. It’s the meat of the content. It’s the words, titles, sentences, paragraphs. Every webpage has some and document called index.html. It is the document the web browser parses first. There’s a lot of things that go into an html document but not all those things are required. This first post looks at the parts of the html document that are require and expands from there.</p>
                         <p>The first set of tags we’ll go over are found on figure 1 and all these tags are require inside of an html document in order for the browser to properly render the document file.</p>
                         <p>The first is tag <b>!DOCTYPE html</b> is a preamble. It lets the browser know that the document that it receives is of type “html”.</p>

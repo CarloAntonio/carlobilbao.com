@@ -1,5 +1,15 @@
 import React from "react";
 
+//image assets
+import aboutHero from '../../assets/img/about-hero.jpg';
+import slider1 from '../../assets/img/slider1.jpg';
+import slider2 from '../../assets/img/slider2.jpg';
+import slider3 from '../../assets/img/slider3.jpg';
+import slider4 from '../../assets/img/slider4.jpg';
+import slider5 from '../../assets/img/slider5.jpg';
+import slider6 from '../../assets/img/slider6.jpg';
+import slider7 from '../../assets/img/slider7.jpg';
+
 const about = () => {
   return (
     <div>
@@ -8,7 +18,7 @@ const about = () => {
         <section className="custom-pt pb-no wow fadeIn main-slider mobile-height content-right-slider">
             <div className="container-fluid">
                 <div className="row equalize sm-equalize-auto">
-                    <div className="col-md-6 cover-background sm-height-500px xs-height-350px wow fadeIn padding-twenty-five-top padding-five-left" style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/about-hero.jpg)" } }>
+                    <div className="col-md-6 cover-background sm-height-500px xs-height-350px wow fadeIn padding-twenty-five-top padding-five-left" style ={ { backgroundImage: `url(${ aboutHero })` } }>
                         <h4 className="text-white text-standout display-block margin-5px-bottom alt-font">Hello,</h4>
                         <h6 className="text-white text-standout font-weight-300 margin-20px-bottom alt-font">I&#39;m Carlo Bilbao</h6>
                         <p className="text-large text-white text-standout dispaly-block pull-left font-weight-300 width-90 margin-35px-bottom">I design and implement thoughtful websites for companies, businesses, and various events. I love being outdoors, creating videos, and being a gym rat.</p>
@@ -17,7 +27,7 @@ const about = () => {
                         <div className="swiper-wrapper">
 
                             {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/slider1.jpg)" } }>
+                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider1 })` } }>
                                 <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div className="margin-100px-bottom text-center position-relative">
                                         <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">01</span>
@@ -27,7 +37,7 @@ const about = () => {
                             {/* end slider item */}
 
                             {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/slider2.jpg)" } }>
+                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider2 })` } }>
                                 <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div className="margin-100px-bottom text-center position-relative">
                                         <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">02</span>
@@ -37,7 +47,7 @@ const about = () => {
                             {/* end slider item */}
 
                             {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/slider3.jpg)" } }>
+                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider3 })` } }>
                                 <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div className="margin-100px-bottom text-center position-relative">
                                         <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">03</span>
@@ -47,7 +57,7 @@ const about = () => {
                             {/* end slider item */}
 
                             {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/slider4.jpg)" } }>
+                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider4 })` } }>
                                 <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div className="margin-100px-bottom text-center position-relative">
                                         <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">04</span>
@@ -57,7 +67,7 @@ const about = () => {
                             {/* end slider item */}
 
                             {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/slider5.jpg)" } }>
+                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider5 })` } }>
                                 <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div className="margin-100px-bottom text-center position-relative">
                                         <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">05</span>
@@ -67,7 +77,7 @@ const about = () => {
                             {/* end slider item */}
 
                             {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/slider6.jpg)" } }>
+                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider6 })` } }>
                                 <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div className="margin-100px-bottom text-center position-relative">
                                         <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">06</span>
@@ -77,7 +87,7 @@ const about = () => {
                             {/* end slider item */}
 
                             {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/slider7.jpg)" } }>
+                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider7 })` } }>
                                 <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
                                     <div className="margin-100px-bottom text-center position-relative">
                                         <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">07</span>

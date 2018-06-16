@@ -1,11 +1,13 @@
 import React from "react";
 
+import notebookHero from '../../../assets/img/notebook-hero.jpg';
+
 const notebook = () => {
   return (
     <div>
 
         {/* start page title section */}
-        <section className="wow fadeIn parallax" data-stellar-background-ratio="0.5" style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/notebook-hero.jpg)" } }>
+        <section className="wow fadeIn parallax" data-stellar-background-ratio="0.5" style ={ { backgroundImage: `url(${ notebookHero })` } }>
             <div className="opacity-medium bg-extra-dark-gray"></div>
             <div className="container">
                 <div className="row">

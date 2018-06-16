@@ -1,11 +1,15 @@
 import React from "react";
 
+import homeHero from '../../assets/img/home-hero.jpg';
+import workTogether from '../../assets/img/workTogether.jpeg';
+import magnolia from '../../assets/img/magnoliaDotCom.jpg';
+
 const home = () => {
   return (
     <div>
 
         {/* start hero section */}
-        <section className="wow fadeIn no-padding one-fourth-screen position-relative parallax xs-background-image-center" data-stellar-background-ratio="0.5" style ={ { backgroundImage: "url(http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/home-hero.jpg)" } }>
+        <section className="wow fadeIn no-padding one-fourth-screen position-relative parallax xs-background-image-center" data-stellar-background-ratio="0.5" style ={ { backgroundImage: `url(${ homeHero })` } }>
             <div className="container">
                 <div className="row height-100">
                     <div className="slider-typography">
@@ -328,10 +332,10 @@ const home = () => {
                             <li className="grid-item wow fadeInUp last-paragraph-no-margin">
                                 <figure>
                                     <div className="portfolio-img accent-bg position-relative text-center overflow-hidden">
-                                        <img src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/magnoliaDotCom.jpg" alt=""/>
+                                        <img src={ magnolia } alt=""/>
                                         <div className="portfolio-icon">
                                             <a href="http://www.magnoliaghllc.com"><i className="fa fa-link text-extra-dark-gray" aria-hidden="true"></i></a>
-                                            <a className="gallery-link" title="Project Magnolia Guest Home LLC" href="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/magnoliaDotCom.jpg"><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a
+                                            <a className="gallery-link" title="Project Magnolia Guest Home LLC" href={ magnolia }><i className="fa fa-search text-extra-dark-gray" aria-hidden="true"></i></a
                                             ></div>
                                     </div>
                                     <figcaption className="bg-white">
@@ -361,7 +365,7 @@ const home = () => {
                     <div className="col-md-5 col-sm-12 col-xs-12 text-center sm-margin-30px-bottom wow fadeInLeft">
                         <div className="display-table width-100 height-100">
                             <div className="display-table-cell vertical-align-middle width-100 height-100">
-                                <img src="http://d1ty8z742i6uvq.cloudfront.net/carlobilbao/img/workTogether.jpeg" alt="" className="border-radius-6 width-100"/>
+                                <img src={ workTogether } alt="" className="border-radius-6 width-100"/>
                             </div>
                         </div>
                     </div>
