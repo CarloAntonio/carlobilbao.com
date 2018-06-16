@@ -1,17 +1,15 @@
 import React from "react";
 
+//import subcomponents
+import SliderItem from './subComp/sliderItem';
+
 //image assets
 import aboutHero from '../../assets/img/about-hero.jpg';
-import slider1 from '../../assets/img/slider1.jpg';
-import slider2 from '../../assets/img/slider2.jpg';
-import slider3 from '../../assets/img/slider3.jpg';
-import slider4 from '../../assets/img/slider4.jpg';
-import slider5 from '../../assets/img/slider5.jpg';
-import slider6 from '../../assets/img/slider6.jpg';
-import slider7 from '../../assets/img/slider7.jpg';
+import { sliderData } from './data';
 
 const about = () => {
-  return (
+
+    return (
     <div>
 
         {/* start hero section */}
@@ -26,75 +24,9 @@ const about = () => {
                     <div className="swiper-full-screen swiper-container col-md-6 no-padding-lr white-move bg-extra-dark-gray text-center xs-padding-20px-tb wow fadeIn">
                         <div className="swiper-wrapper">
 
-                            {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider1 })` } }>
-                                <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
-                                    <div className="margin-100px-bottom text-center position-relative">
-                                        <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">01</span>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* end slider item */}
-
-                            {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider2 })` } }>
-                                <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
-                                    <div className="margin-100px-bottom text-center position-relative">
-                                        <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">02</span>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* end slider item */}
-
-                            {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider3 })` } }>
-                                <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
-                                    <div className="margin-100px-bottom text-center position-relative">
-                                        <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">03</span>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* end slider item */}
-
-                            {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider4 })` } }>
-                                <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
-                                    <div className="margin-100px-bottom text-center position-relative">
-                                        <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">04</span>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* end slider item */}
-
-                            {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider5 })` } }>
-                                <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
-                                    <div className="margin-100px-bottom text-center position-relative">
-                                        <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">05</span>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* end slider item */}
-
-                            {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider6 })` } }>
-                                <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
-                                    <div className="margin-100px-bottom text-center position-relative">
-                                        <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">06</span>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* end slider item */}
-
-                            {/* start slider item */}
-                            <div className="swiper-slide last-paragraph-no-margin padding-twenty-five-top cover-background"style ={ { backgroundImage: `url(${ slider7 })` } }>
-                                <div className="padding-eighteen-lr padding-twenty-five-top margin-ten-top md-padding-eight-lr sm-padding-thirteen-lr xs-padding-15px-lr">
-                                    <div className="margin-100px-bottom text-center position-relative">
-                                        <span className="title-large alt-font font-weight-100 text-dark-gray opacity4 text-standout">07</span>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* end slider item */}
+                            {sliderData.map(slider => {
+                                return <SliderItem slider={slider.slider} num={slider.num}/>
+                            })}
 
                         </div>
                         {/* start slider pagination */}
