@@ -3,11 +3,13 @@ import React from "react";
 //import subcomponents
 import SliderItem from './subComp/sliderItem';
 import ServiceItem from './subComp/serviceItem';
+import VideoItem from './subComp/videoItem';
 
 //image assets
 import aboutHero from '../../assets/img/about-hero.jpg';
 import profileImg from '../../assets/img/profile.jpg'
-import { sliderData, interestData } from './data';
+import { sliderData, interestData, videoData } from './data';
+import videoItem from "./subComp/videoItem";
 
 const about = () => {
 
@@ -114,63 +116,12 @@ const about = () => {
                     </div>
                 </div>
                 <div className="row">
-
-                    {/* start column */}
-                    <div className="col-md-6 col-sm-12 sm-margin-15px-bottom ">
-                        <div className="text-center fit-videos sm-margin-30px-bottom">
-                            {/* start youtube video */}
-                            <iframe title="Hiking with DJI Osmo" width="560" height="315" src="https://www.youtube.com/embed/jXOKEFBRAEs" frameBorder="0" allowFullScreen></iframe>
-                            {/* end youtube video */}
-                        </div>
-                        <div className="bg-white padding-40px-all xs-padding-30px-all last-paragraph-no-margin bg-light-gray">
-                            <p>My first hiking trip using my DJI Osmo. Look at all that 3-axis gimble smooth gooeyness. Also, a couple of awesome dogs that love to hike.</p>
-                        </div>
-                    </div>
-                    {/* end column */}
-
-                    {/* start column */}
-                    <div className="col-md-6 col-sm-12 sm-margin-15px-bottom ">
-                        <div className="text-center fit-videos sm-margin-30px-bottom">
-                            {/* start youtube video */}
-                            <iframe title="Video of the lantern festival" width="560" height="315" src="https://www.youtube.com/embed/6gZz12nXJpM" frameBorder="0" allowFullScreen></iframe>
-                            {/* end youtube video */}
-                        </div>
-                        <div className="bg-white padding-40px-all last-paragraph-no-margin bg-light-gray">
-                            <p>My first attempt at making a video that tried to embody the lyrics of a song. Also, a trip to Neveda for a lantern festival with a few friends of mine.</p>
-                        </div>
-                    </div>
-                    {/* end column */}
-
+                    <VideoItem videoUrl={videoData[0].videoUrl} title={videoData[0].title} content={videoData[0].content} />
+                    <VideoItem videoUrl={videoData[1].videoUrl} title={videoData[1].title} content={videoData[1].content} />
                 </div>
-
                 <div className="row">
-
-                    {/* start toddtrex column */}
-                    <div className="col-md-6 col-sm-12 sm-margin-15px-bottom ">
-                        <div className="text-center fit-videos sm-margin-30px-bottom">
-                            {/* start youtube video */}
-                            <iframe title="Todd the trex video" width="560" height="315" src="https://www.youtube.com/embed/dnA_7n4dHx4" frameBorder="0" allowFullScreen></iframe>
-                            {/* end youtube video */}
-                        </div>
-                        <div className="bg-white padding-40px-all last-paragraph-no-margin bg-light-gray">
-                            <p>My friend and I enjoy traveling and taking pictures, but weren&#39;t huge fans of taking pictures of ourselves. The solution, for some reason, was to wear a dinosaur suit instead. We&#39;re not sure what other steps led to that conclusion as well. But it did lead to this awesome video. If you enjoyed that goofyness, there&#39;s more <a href="https://www.instagram.com/toddthetrex/" target="_blank" className="accent-hover" rel="noopener noreferrer">here</a>. </p>
-                        </div>
-                    </div>
-                    {/* end column */}
-
-                    {/* start column */}
-                    <div className="col-md-6 col-sm-12 sm-margin-15px-bottom ">
-                        <div className="text-center fit-videos sm-margin-30px-bottom">
-                            {/* start youtube video */}
-                            <iframe title="Picnic at McClures Beach" width="560" height="315" src="https://www.youtube.com/embed/Wh-huDNXTws" frameBorder="0" allowFullScreen></iframe>
-                            {/* end youtube video */}
-                        </div>
-                        <div className="bg-white padding-40px-all xs-padding-30px-all last-paragraph-no-margin bg-light-gray">
-                            <p>My friends and I head over to Mcclures Beach at Point Reyes for a picnic on a (mostly) sunny day. Give the video time, the sun will come out, believe me, I heard it all when we first arrived at the spot and it was cloudy and cold. I found this place a long time ago while hiking at a nearby area. I knew I&#39;d eventually take my friends here and have a BBQ.</p>
-                        </div>
-                    </div>
-                    {/* end column */}
-
+                    <VideoItem videoUrl={videoData[2].videoUrl} title={videoData[2].title} content={videoData[2].content} />
+                    <VideoItem videoUrl={videoData[3].videoUrl} title={videoData[3].title} content={videoData[3].content} />
                 </div>
             </div>
         </section>
