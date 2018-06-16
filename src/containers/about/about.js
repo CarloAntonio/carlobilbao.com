@@ -2,11 +2,12 @@ import React from "react";
 
 //import subcomponents
 import SliderItem from './subComp/sliderItem';
+import ServiceItem from './subComp/serviceItem';
 
 //image assets
 import aboutHero from '../../assets/img/about-hero.jpg';
 import profileImg from '../../assets/img/profile.jpg'
-import { sliderData } from './data';
+import { sliderData, interestData } from './data';
 
 const about = () => {
 
@@ -92,48 +93,11 @@ const about = () => {
                     </div>
                 </div>
                 <div className="row equalize">
-                    {/* start service item  */}
-                    <div className="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp">
-                        <i className="ti-video-camera icon-extra-medium accent-color margin-20px-bottom"></i>
-                        <div className="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Videography</div>
-                        <p className="width-80 xs-width-100 center-col">I love making videos, almost as much as I love developing applications. I gravitate towards videography over photography because it limits interpretation, in that, context is created by the very nature of time elapsing. You can either create a narrative or capture one, conversely it is far more difficult to do so in photographs. Often times, pictures require background knowlege of context, creator intention, etc. Videos much less so, a trait I love exploring when I&#39;m creating content.</p>
-                    </div>
-                    {/* end service item */}
-                    {/* start service item */}
-                    <div className="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                        <i className="ti-map-alt icon-extra-medium accent-color margin-20px-bottom"></i>
-                        <div className="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Hiking/Camping</div>
-                        <p className="width-80 xs-width-100 center-col">I can think of only a few other places I&#39;d rather be than being with my friends around the campfire telling stores miles away from civilian disconneted from the digital world. There&#39;s also nothing like hiking miles of trails to arrive at a destination only a those who have persisted the same path have been. Some people think it&#39;s contrary to be both passionate about technology and nature, but in my opinion, it&#39;s a necessary balance.</p>
-                    </div>
-                    {/* end service item */}
-                    {/* start service item */}
-                    <div className="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
-                        <i className="ti-basketball icon-extra-medium accent-color margin-20px-bottom"></i>
-                        <div className="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Basketball</div>
-                        <p className="width-80 xs-width-100 center-col">Basketball is an old friend. I&#39;ve known it since I was 9 years old, and even though I&#39;m no Kobe Bryant and this isn&#39;t a <a href="https://www.youtube.com/watch?v=Hr3dX6__-hU" target="_blank" className="accent-hover" rel="noopener noreferrer">Dear Basketball</a> ripoff, I can and have always had basketball to help clear my head. Big decisions, breakups, fights, anxiety, impatience, grudges and just about anything else seem a little easier to deal with after running up and down the court and having a silent conversation with the hoop.</p>
-                    </div>
-                    {/* end service item */}
-                    {/* start service item */}
-                    <div className="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin sm-margin-40px-bottom xs-margin-30px-bottom wow fadeInUp">
-                        <i className="ti-cup icon-extra-medium accent-color margin-20px-bottom"></i>
-                        <div className="text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom alt-font font-weight-600">Gym/Working Out</div>
-                        <p className="width-80 xs-width-100 center-col">"Going to the gym after studying and working in front of a computer, is like taking a shower after going to the gym. It feels ridiculously refreshing." -Carlo B. I literally just thought of this right now. There&#39;s something so satisfying about tearing it up in the brain department, then doing the same in the body department. Putting on wireless headphones and going in on the workouts is the most zen you can get on a work day.</p>
-                    </div>
-                    {/* end service item */}
-                    {/* start service item */}
-                    <div className="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                        <i className="ti-music-alt icon-extra-medium accent-color margin-20px-bottom"></i>
-                        <div className="text-extra-dark-gray margin-10px-bottom alt-font font-weight-600">Bachata/Salsa</div>
-                        <p className="width-80 xs-width-100 center-col">I don&#39;t even know why I like doing this, but I blame my college roommates for this hobby. Now I listen to bachata and salsa music and I have no idea what they&#39;re saying but that beat and base are next level. I&#39;m not even good at it, but it&#39;s one of the funnest things to do on a night out.</p>
-                    </div>
-                    {/* end service item */}
-                    {/* start service item */}
-                    <div className="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                        <i className="ti-rocket icon-extra-medium accent-color margin-20px-bottom"></i>
-                        <div className="text-extra-dark-gray margin-10px-bottom alt-font font-weight-600">Space</div>
-                        <p className="width-80 xs-width-100 center-col">I&#39;ve always loved space but felt like space was only for really smart people to think about, but since Elon Musk&#39;s audacious attempts at reaching Mars play out in my lifetime, I can&#39;t help but think that anyone can dream about reaching the stars. I&#39;d love to play a part in making that dream come true with the skills I have and can&#39;t wait till the ticket to space cost as much as traveling to the other side of the world.</p>
-                    </div>
-                    {/* end service item */}
+
+                    {interestData.map(interest => {
+                        return <ServiceItem title={interest.title} content={interest.content} delay={interest.delay} />
+                    })}
+                
                 </div>
             </div>
         </section>
