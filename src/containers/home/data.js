@@ -1,5 +1,8 @@
 import React from 'react';
 
+//image assets
+import magnolia from '../../assets/img/magnoliaDotCom.jpg';
+
 export const progressData = {
     technologies: [
         {
@@ -156,3 +159,12 @@ export const progressData = {
         },
     ]
 }
+
+export const portfolioData = [
+    {
+        image: magnolia,
+        link: "http://www.magnoliaghllc.com",
+        title: "Magnolia Guest Home LLC",
+        service: "Website | Photography"
+    }
+];
