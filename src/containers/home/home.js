@@ -1,41 +1,19 @@
 import React from "react";
 
+//subcomponents
+import HeroBanner from './subComps/heroBanner';
+import ProgressBar from './subComps/progressBar';
+
+//assets
 import homeHero from '../../assets/img/home-hero.jpg';
 import workTogether from '../../assets/img/workTogether.jpeg';
 import magnolia from '../../assets/img/magnoliaDotCom.jpg';
+import { progressData } from './data';
 
 const home = () => {
   return (
     <div>
-
-        {/* start hero section */}
-        <section className="wow fadeIn no-padding one-fourth-screen position-relative parallax xs-background-image-center" data-stellar-background-ratio="0.5" style ={ { backgroundImage: `url(${ homeHero })` } }>
-            <div className="container">
-                <div className="row height-100">
-                    <div className="slider-typography">
-                        <div className="slider-text-middle-main">
-                            <div className="slider-text-middle">
-                                <div className="col-lg-4 col-md-8 col-sm-10 col-xs-12 center-col text-center">
-                                    <span className="text-extra-small alt-font letter-spacing-2 text-uppercase margin-20px-bottom display-inline-block text-white">Carlo Antonio Soriano Bilbao</span>
-                                    <h2 className="font-weight-600 alt-font margin-40px-bottom sm-margin-20px-bottom text-white letter-spacing-minus-1 text-standout">Software Developer, Science Geek, Life-Long Learner</h2>
-                                    <div className="social-icon-style-8">
-                                        <ul className="small-icon">
-                                            <li><a className="linkedin text-white margin-5px-lr" href="https://www.linkedin.com/in/carlo-bilbao/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin accent-hover" aria-hidden="true"></i></a></li>
-                                            <li><a className="dribbble text-white margin-5px-lr" href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram accent-hover" aria-hidden="true"></i></a></li>
-                                            <li><a className="medium text-white margin-5px-lr" href="https://medium.com/@cbilbao88" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium accent-hover" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="down-section text-center">
-                                <a href="#about" className="inner-link"><i className="ti-arrow-down icon-small accent-color"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        {/* end hero section */}
+        <HeroBanner />
 
         {/* about agency section */}
         <section className="big-section wow fadeIn bg-black" id="about">
@@ -67,62 +45,15 @@ const home = () => {
                         {/* start progress bar section */}
                         <div className="skillbar-bar-main skillbar-bar-style-custom">
                             <p className="text-small alt-font font-weight-600 text-uppercase">Technologies</p>
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Javascript - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="85%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Java - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="50%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">C++ - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="25%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Python - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="95%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">HTML5 - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">CSS - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">XML - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar" data-percent="80%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Node - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
+
+                            {progressData.technologies.map(techItem => {
+                                return <ProgressBar 
+                                            key={techItem.item}
+                                            item={techItem.item} 
+                                            experience={techItem.experience} 
+                                            percent={techItem.percent} />
+                            })}
+ 
                         </div>
                         {/* end progress bar section*/}
                     </div>
@@ -132,62 +63,15 @@ const home = () => {
                         {/* start progress bar section */}
                         <div className="skillbar-bar-main skillbar-bar-style-custom">
                             <p className="text-small alt-font font-weight-600 text-uppercase">Libraries &amp; Frameworks</p>
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="80%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">React - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Express - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Bootstrap - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="85%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">SASS - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="75%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">JQuery - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar" data-percent="20%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Pug - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar" data-percent="70%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Gson (Android Dev) - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar" data-percent="70%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Retrofit (Android Dev) - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
+                            
+                            {progressData.libraries.map(libItem => {
+                                return <ProgressBar 
+                                            key={libItem.item}
+                                            item={libItem.item}
+                                            experience={libItem.experience}
+                                            percent={libItem.percent}/>
+                            })}
+
                         </div>
                         {/* end progress bar */}
                     </div>
@@ -197,62 +81,15 @@ const home = () => {
                         {/* start progress bar */}
                         <div className="skillbar-bar-main skillbar-bar-style-custom">
                             <p className="text-small alt-font font-weight-600 text-uppercase">Tools</p>
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="70%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Grunt - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="75%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Gimp & Photoshop - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="50%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Android Studio - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Git/GitHub - 1 year Experience year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Chrome Developer Tools - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Atom/VSCode - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Npm - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar" data-percent="20%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">MongoDB - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
+                           
+                            {progressData.tools.map(toolItem => {
+                                return <ProgressBar 
+                                            key={toolItem.item}
+                                            item={toolItem.item}
+                                            experience={toolItem.experience}
+                                            percent={toolItem.percent}/>
+                            })}
+
                         </div>
                         {/* end progress bar */}
                     </div>
@@ -262,48 +99,14 @@ const home = () => {
                         {/* start progress bar */}
                         <div className="skillbar-bar-main skillbar-bar-style-custom">
                             <p className="text-small alt-font font-weight-600 text-uppercase">Other</p>
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="80%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Firebase Functions - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="80%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Amazon Web Services - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="90%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Git/GitHub - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="98%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">JSON - 1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="85%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Source Tree - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
-                            {/* start  progress bar item */}
-                            <div className="skillbar margin-45px-bottom" data-percent="80%">
-                                <span className="skill-bar-text text-extra-small text-uppercase text-dark-gray">Slack - &#60;1 year Experience</span>
-                                <p className="skillbar-bar"></p>
-                                <span className="skill-bar-percent text-small"></span>
-                            </div>
-                            {/* end progress bar item */}
+                           
+                            {progressData.other.map(otherItem => {
+                                return <ProgressBar 
+                                            key={otherItem.item}
+                                            item={otherItem.item}
+                                            experience={otherItem.experience}
+                                            percent={otherItem.percent}/>
+                            })}
 
                         </div>
                         {/* end progress bar */}
