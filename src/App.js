@@ -8,21 +8,58 @@ import Footer from "./components/footer/footer";
 import Home from "./containers/home/home";
 import About from "./containers/about/about";
 import Contact from "./containers/contact/contact";
-import Work from "./containers/work/work";
+import asyncComp from "./hoc/asyncComp";
+
+/*****
+ * lazy-loading helper functions
+ ****/
 
 //Notebook & Notebook Entries
-import Notebook from "./containers/blog/notebook/notebook";
-import Ne1 from "./containers/blog/notebook/ne/ne1";
-import Ne2 from "./containers/blog/notebook/ne/ne2";
-import Ne3 from "./containers/blog/notebook/ne/ne3";
-import Ne4 from "./containers/blog/notebook/ne/ne4";
+const asyncNotebook = asyncComp(() => {
+  return import('./containers/blog/notebook/notebook');
+});
+
+const asyncNe1= asyncComp(() => {
+  return import('./containers/blog/notebook/ne/ne1');
+});
+
+const asyncNe2= asyncComp(() => {
+  return import('./containers/blog/notebook/ne/ne2');
+});
+
+const asyncNe3= asyncComp(() => {
+  return import('./containers/blog/notebook/ne/ne3');
+});
+
+const asyncNe4= asyncComp(() => {
+  return import('./containers/blog/notebook/ne/ne4');
+});
 
 //Journal & Journal Entries
-import Journal from "./containers/blog/journal/journal";
-import Je1 from "./containers/blog/journal/je/je1";
-import Je2 from "./containers/blog/journal/je/je2";
-import Je3 from "./containers/blog/journal/je/je3";
-import Je4 from "./containers/blog/journal/je/je4";
+const asyncJournal = asyncComp(() => {
+  return import('./containers/blog/journal/journal');
+});
+
+const asyncJe1= asyncComp(() => {
+  return import('./containers/blog/journal/je/je1');
+});
+
+const asyncJe2= asyncComp(() => {
+  return import('./containers/blog/journal/je/je2');
+});
+
+const asyncJe3= asyncComp(() => {
+  return import('./containers/blog/journal/je/je3');
+});
+
+const asyncJe4= asyncComp(() => {
+  return import('./containers/blog/journal/je/je4');
+});
+
+//Work & Work Entries
+const asyncWork = asyncComp(() => {
+  return import('./containers/work/work');
+});
 
 export default class App extends Component {
   render() {
@@ -37,17 +74,17 @@ export default class App extends Component {
           <Route path="/" exact component={ Home } />
           <Route path="/about" exact component={ About } />
           <Route path="/contact" exact component={ Contact } />
-          <Route path="/work" exact component={ Work } />
-          <Route path="/blog/notebook" exact component= { Notebook } />
-            <Route path="/blog/notebook/ne/ne1" exact component= { Ne1 } />
-            <Route path="/blog/notebook/ne/ne2" exact component= { Ne2 } />
-            <Route path="/blog/notebook/ne/ne3" exact component= { Ne3 } />
-            <Route path="/blog/notebook/ne/ne4" exact component= { Ne4 } />
-          <Route path="/blog/journal" exact component= { Journal } />
-            <Route path="/blog/journal/je/je1" exact component= { Je1 } />
-            <Route path="/blog/journal/je/je2" exact component= { Je2 } />
-            <Route path="/blog/journal/je/je3" exact component= { Je3 } />
-            <Route path="/blog/journal/je/je4" exact component= { Je4 } />
+          <Route path="/work" exact component={ asyncWork } />
+          <Route path="/blog/notebook" exact component= { asyncNotebook } />
+            <Route path="/blog/notebook/ne/ne1" exact component= { asyncNe1 } />
+            <Route path="/blog/notebook/ne/ne2" exact component= { asyncNe2 } />
+            <Route path="/blog/notebook/ne/ne3" exact component= { asyncNe3 } />
+            <Route path="/blog/notebook/ne/ne4" exact component= { asyncNe4 } />
+          <Route path="/blog/journal" exact component= { asyncJournal } />
+            <Route path="/blog/journal/je/je1" exact component= { asyncJe1 } />
+            <Route path="/blog/journal/je/je2" exact component= { asyncJe2 } />
+            <Route path="/blog/journal/je/je3" exact component= { asyncJe3 } />
+            <Route path="/blog/journal/je/je4" exact component= { asyncJe4 } />
         </Switch>
 
         <Footer />
