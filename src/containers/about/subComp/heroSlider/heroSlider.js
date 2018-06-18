@@ -24,7 +24,10 @@ const heroSlider = () => {
                     <div className="swiper-full-screen swiper-container col-md-6 no-padding-lr white-move bg-extra-dark-gray text-center xs-padding-20px-tb wow fadeIn">
                         <div className="swiper-wrapper">
                             {sliderData.map(slider => {
-                                return <SliderItem slider={slider.slider} num={slider.num}/>
+                                return <SliderItem 
+                                    key={slider.num}
+                                    slider={slider.slider} 
+                                    num={slider.num}/>
                             })}
                         </div>
                         {/* start slider pagination */}

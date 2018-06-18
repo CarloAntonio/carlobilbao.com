@@ -20,7 +20,11 @@ const interest = () => {
                 <div className="row equalize">
 
                     {interestData.map(interest => {
-                        return <InterestItem title={interest.title} content={interest.content} delay={interest.delay} />
+                        return <InterestItem 
+                            key={interest.title}
+                            title={interest.title} 
+                            content={interest.content} 
+                            delay={interest.delay} />
                     })}
                 
                 </div>
