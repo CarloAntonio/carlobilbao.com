@@ -15,7 +15,6 @@ const work = () => {
                             <div className="slider-typography text-center xs-overflow-auto">
                                 <div className="slider-text-middle-main padding-ten-tb">
                                     <div className="slider-text-middle bg-black-opacity xs-padding-15px-all">
-                                        <div className="margin-eight-bottom xs-margin-30-bottom"><img src="images/logo-white.png" data-at2x="images/logo-white@2x.png" alt="" /></div>
                                         <h6 className="font-weight-300 text-white margin-30px-bottom width-45 center-col sm-width-60 xs-width-100 c-strike">Updating, check back soon!</h6>
                                         <div data-enddate="2017/12/01 12:30:00" className="countdown text-center text-white counter-box-5"></div>
                                         <div className="col-md-12 text-center social-icon-style-10 margin-six-top xs-margin-30px-top xs-no-padding">
