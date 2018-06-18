@@ -1,7 +1,6 @@
 import React from "react";
-import '../../App.css';
 
-const obHeader = () => {
+const header = () => {
   return (
     <header>
       {/* start navigation */}
@@ -71,4 +70,4 @@ const obHeader = () => {
   );
 }
 
-export default obHeader;
+export default header;

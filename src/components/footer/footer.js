@@ -1,6 +1,6 @@
 import React from "react";
 
-const obFooter = () => {
+const footer = () => {
   return (
     <footer className="footer-classic-dark bg-extra-dark-gray xs-padding-30px-bottom">
       <div className="bg-dark-footer padding-50px-tb xs-padding-30px-tb">
@@ -53,4 +53,4 @@ const obFooter = () => {
   </footer>
   );
 }
-export default obFooter;
+export default footer;
