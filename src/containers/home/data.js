@@ -1,4 +1,3 @@
-import React from 'react';
 
 //image assets
 import magnolia from '../../assets/img/magnoliaDotCom.jpg';

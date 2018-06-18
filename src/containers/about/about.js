@@ -9,7 +9,6 @@ import VideoItem from './subComp/videoItem';
 import aboutHero from '../../assets/img/about-hero.jpg';
 import profileImg from '../../assets/img/profile.jpg'
 import { sliderData, interestData, videoData } from './data';
-import videoItem from "./subComp/videoItem";
 
 const about = () => {
 

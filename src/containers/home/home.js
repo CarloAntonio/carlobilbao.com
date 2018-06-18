@@ -7,9 +7,6 @@ import SkillSet from './subComps/skillSet/skillSet';
 import Porfolio from './subComps/porfolio/portfolio';
 import ShortContact from './subComps/shortContact';
 
-//assets
-import magnolia from '../../assets/img/magnoliaDotCom.jpg';
-
 const home = () => {
   return (
     <div>
