@@ -14,7 +14,7 @@ const we1 = () => {
         <HeroDiv 
             hero={we1Data.heroDiv.hero}
             title={we1Data.heroDiv.title}
-            subTile={we1Data.heroDiv.subTile}/>
+            subTitle={we1Data.heroDiv.subTitle}/>
 
         <OverView 
             summary={we1Data.overview.summary}

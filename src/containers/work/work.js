@@ -5,7 +5,6 @@ import WorkItem from './subComps/workItem';
 
 import { workItemsData } from './workData';
 
-
 const work = () => {
   return (
     <div>
