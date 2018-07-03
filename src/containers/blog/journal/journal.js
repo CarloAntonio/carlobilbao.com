@@ -59,7 +59,7 @@ const journal = () => {
                 </div>
             </div>
         </section>
-        {/* end blog content section */}
+        {/* end post content section */}
 
     </div>
   );
