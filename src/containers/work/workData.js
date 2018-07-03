@@ -1,4 +1,5 @@
 
+import magnoliaghllc from '../../assets/img/portfolio/magnoliaDotCom.jpg';
 import darryjonvisuals from '../../assets/img/portfolio/darryljonvisuals.jpg';
 
 export const workItemsData = [
@@ -7,11 +8,82 @@ export const workItemsData = [
         date: "June 13 2018",
         title: "Darryl Jon Visuals",
         delay: "0.2s",
+        link: "/work/we2"
+    },
+    {
+        image: magnoliaghllc,
+        date: "May 24, 2018",
+        title: "Magnolia Guest Home LLC",
+        delay: "0.4s",
         link: "/work/we1"
-    }
+    },
 ];
 
 export const we1Data = {
+    heroDiv: {
+        hero: magnoliaghllc,
+        title: "Magnolia Guest Home LLC",
+        subTitle: "Provide the safest, most reliable, and compassionate care home service that fits a client’s daily needs in a care facility."
+    },
+    overview: {
+        summary: "Holistic brand redesign focusing product design, interface design, studio photograph style, icon design, editorial design, web design & motion design.",
+        clientName: "Gene Gepulle",
+        clientIndustry: "Residential Care Facility",
+        services: "Website Design & Execution",
+        date: "May 24, 2018",
+        clientWebsiteLink: "https://www.magnoliaghllc.com",
+    },
+    skills: [
+        {
+            percent: "92%",
+            skill: "HTML & CSS",
+            experience: "1"
+            
+        },
+        {
+            percent: "97%",
+            skill: "Javascript",
+            experience: "1",
+            
+        },
+        {
+            percent: "65%",
+            skill: "Bootstrap",
+            experience: "1",
+            
+        },
+        {
+            percent: "50%",
+            skill: "React",
+            experience: "1",
+            
+        },
+    ],
+    projects: [
+        {
+            question: "What was the goal of this project?",
+            answer: "The goal of this project was to upgrade and update the client's very outdated website. The website had not been updated in years and much of the information on the website was incorrect. Furthermore, the website was not responsive and caused users to side scroll on smaller devices leading to a less than ideal user experience.",
+        },
+        {
+            question: "How were the goals reached?",
+            answer: "The goals of this project were reached by creating a responsive first website. This made the webpage much easier to use and understand, a crucial upgrade for targeting clients that are well into adulthood looking for a care home for their parents. The layout design attempted to give a happy and friendly aura while remaining professional. Font size remain large for easy viewing.",
+        },
+        {
+            question: "How were goals set?",
+            answer: "The client and I set goals over food and drinks at their church brunch. Client knew what he wanted to accomplish with the website so it was easy to create a bullet point of all the things that needed to be accomplished.",
+        },
+        {
+            question: "What are some technologies used on this project?",
+            answer: `The client's website uses the usual technologies for website creation, namely HTML, CSS, and Javascript. The website also uses the React Library + Associated React Libraries that bring it to Framework status, to provide a performance boost and "lazy-loads" seldom used links for a slight performance boost.`,
+        },
+    ],
+    feedback: {
+        feedback: "After upgrading my company's website with Carlo Antonio Bilbao not only more prospects and waiting list starts to pile up but in general help my business grow, I highly recommend him as a web designer.",
+        feedbackAuth: "Gene Gepulle"
+    }
+}
+
+export const we2Data = {
     heroDiv: {
         hero: darryjonvisuals,
         title: "Darryl Jon Visuals",
@@ -74,3 +146,4 @@ export const we1Data = {
         feedbackAuth: "Darryl Jon Baello"
     }
 }
+

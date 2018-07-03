@@ -15,6 +15,7 @@ const projectDetails = (props) => {
                                 {props.projects.map((project, index) => {
                                     return <ProjectItem 
                                                 key={index}
+                                                index={index + 1}
                                                 question={project.question}
                                                 answer={project.answer}/>
                                 })}

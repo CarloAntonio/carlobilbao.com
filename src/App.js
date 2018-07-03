@@ -65,6 +65,10 @@ const asyncWe1 = asyncComp(() => {
   return import('./containers/work/workEntries/we1')
 });
 
+const asyncWe2 = asyncComp(() => {
+  return import('./containers/work/workEntries/we2')
+});
+
 export default class App extends Component {
   render() {
     return (
@@ -80,6 +84,7 @@ export default class App extends Component {
           <Route path="/contact" exact component={ Contact } />
           <Route path="/work" exact component={ asyncWork } />
             <Route path="/work/we1" exact component= { asyncWe1 } />
+            <Route path="/work/we2" exact component= { asyncWe2 } />
           <Route path="/blog/notebook" exact component= { asyncNotebook } />
             <Route path="/blog/notebook/ne/ne1" exact component= { asyncNe1 } />
             <Route path="/blog/notebook/ne/ne2" exact component= { asyncNe2 } />
