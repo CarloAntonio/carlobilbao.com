@@ -2,12 +2,12 @@ import React from 'react';
 
 const projectItem = (props) => {
     return (
-        <div class="panel">
-            <div class="panel-heading">
-                <a data-toggle="collapse" data-parent="#accordion-design" href="#design1" class="collapsed" aria-expanded="false"><div class="panel-title font-weight-500 text-white text-uppercase">{props.question}<span class="pull-right"><i class="ti-minus"></i></span></div></a>
+        <div className="panel">
+            <div className="panel-heading">
+                <a data-toggle="collapse" data-parent="#accordion-design" href="#design1" className="collapsed" aria-expanded="false"><div className="panel-title font-weight-500 text-white text-uppercase">{props.question}<span className="pull-right"><i className="ti-minus"></i></span></div></a>
             </div>
-            <div id="design1" class="panel-collapse collapse in">
-                <div class="panel-body">
+            <div id="design1" className="panel-collapse collapse in">
+                <div className="panel-body">
                     {props.answer} 
                 </div>
             </div>

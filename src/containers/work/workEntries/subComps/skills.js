@@ -17,8 +17,9 @@ const skills = (props) => {
                         <div className="display-table-cell vertical-align-middle">
                             <div className="skillbar-bar-main skillbar-bar-style2">
 
-                                {props.skills.map(skill => {
+                                {props.skills.map((skill, index) => {
                                     return <SkillItem 
+                                                key={index}
                                                 percent={skill.percent}
                                                 skill={skill.skill}
                                                 experience={skill.experience} />

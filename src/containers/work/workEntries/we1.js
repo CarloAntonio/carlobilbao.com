@@ -18,7 +18,7 @@ const we1 = () => {
 
         <OverView 
             summary={we1Data.overview.summary}
-            clientName={we1Data.overview.className}
+            clientName={we1Data.overview.clientName}
             clientIndustry={we1Data.overview.clientIndustry}
             services={we1Data.overview.services}
             date={we1Data.overview.date}
