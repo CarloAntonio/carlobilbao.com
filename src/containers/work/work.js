@@ -16,8 +16,9 @@ const work = () => {
             <div className="container">
                 <div className="row col-4-nth sm-col-2-nth">
 
-                    {workItemsData.map(workItem => {
+                    {workItemsData.map((workItem, index) => {
                         return <WorkItem 
+                                    key={ index }
                                     image={ workItem.image }
                                     date={ workItem.date }
                                     title={ workItem.title }
