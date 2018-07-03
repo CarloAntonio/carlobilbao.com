@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import './App.css';
 
 // Components
@@ -95,6 +95,7 @@ export default class App extends Component {
             <Route path="/blog/journal/je/je2" exact component= { asyncJe2 } />
             <Route path="/blog/journal/je/je3" exact component= { asyncJe3 } />
             <Route path="/blog/journal/je/je4" exact component= { asyncJe4 } />
+          <Redirect to="/" />
         </Switch>
 
         <Footer />
